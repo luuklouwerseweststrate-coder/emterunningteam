@@ -109,6 +109,10 @@ export default function HeroSection() {
                 65 van Walcheren
               </div>
             </div>
+            {/* Tower below photo on mobile */}
+            <div className="mt-8 flex justify-center opacity-15 lg:hidden">
+              <WestkapelleTower height={200} color="white" />
+            </div>
           </motion.div>
         </div>
 
