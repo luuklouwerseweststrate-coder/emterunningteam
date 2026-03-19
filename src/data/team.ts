@@ -22,7 +22,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "luuk-louwerse",
     name: "Luuk Louwerse",
-    role: "Aanvoerder",
+    role: "Bierveteraan",
     image: "/images/teamlid_luuk.png",
     shortBio:
       "Oprichter en drijvende kracht achter het EMTÉ Running Team. Loopt het liefst hard met de Westkapelse wind in de rug.",
@@ -51,7 +51,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "matthijs-geleijnse",
     name: "Matthijs Geleijnse",
-    role: "Tempomaker",
+    role: "Shotjes Kampioen",
     image: "/images/teamlid_matthijs.png",
     shortBio:
       "De snelste van het team — maar hij wacht altijd op de rest. Meestal.",
@@ -79,7 +79,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "bart-joziasse",
     name: "Bart Joziasse",
-    role: "Duurloper",
+    role: "Jägermeister Specialist",
     image: "/images/teamlid_bart.png",
     shortBio:
       "Houdt van lange afstanden en langzaam tempo. De rust zelve — totdat de finish in zicht komt.",
@@ -107,7 +107,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "juriaan-boogaard",
     name: "Juriaan Boogaard",
-    role: "Allrounder",
+    role: "Borrelaanvoerder",
     image: "/images/teamlid_juriaan.png",
     shortBio:
       "Doet alles een beetje en alles best goed. Van 5 km tot trail — Juriaan is overal voor in.",
@@ -136,7 +136,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "imara-murre",
     name: "Imara Murre",
-    role: "Sprinter",
+    role: "Rode Wijn Koningin",
     image: "/images/teamlid_imara.png",
     shortBio:
       "De jongste van het team. Snel, enthousiast en altijd in voor een sprint op het einde.",
@@ -164,7 +164,7 @@ export const teamMembers: TeamMember[] = [
   {
     id: "evi-passenier",
     name: "Evi Passenier",
-    role: "Trailrunner",
+    role: "Prosecco Princess",
     image: "/images/teamlid_evi.png",
     shortBio:
       "Geeft de voorkeur aan onverharde paden, duinen en modder. De avonturier van het team.",
