@@ -25,9 +25,9 @@ export const teamMembers: TeamMember[] = [
     role: "Bierveteraan",
     image: "/images/teamlid_luuk.png",
     shortBio:
-      "Oprichter en bierveteraan. Zaterdagavond de kroeg platlopen, zondagochtend de dijk oplopen. Dat is de Luuk-manier.",
+      "Bierveteraan. Zaterdagavond de kroeg platlopen, zondagochtend de dijk oplopen. Dat is de Luuk-manier.",
     fullBio:
-      "Luuk is het brein achter het EMTE Running Team. Wat begon als een dronken weddenschap in de kroeg — 'wedden dat we de 65 van Walcheren kunnen doen?' — werd al snel serieus toen iedereen de volgende ochtend nog steeds ja zei. Sindsdien combineert hij zaterdagavonden in het cafe met zondagochtend-duurlopen alsof het de normaalste zaak van de wereld is. Als echte Westkapellenaar kent hij elke kroeg en elke dijk op Walcheren even goed.",
+      "Luuk is de bierveteraan van het EMTE Running Team. Hij combineert zaterdagavonden in het café met zondagochtend-duurlopen alsof het de normaalste zaak van de wereld is. Wat begon als een dronken weddenschap in de kroeg — 'wedden dat we de 65 van Walcheren kunnen doen?' — werd al snel serieus toen iedereen de volgende ochtend nog steeds ja zei. Als echte Westkapellenaar kent hij elke kroeg en elke dijk op Walcheren even goed.",
     favoriteDistance: "Halve marathon",
     bestAchievement:
       "De 65 van Walcheren uitlopen met het complete team — met een kater van de avond ervoor.",
