@@ -149,7 +149,7 @@ export const teamMembers: TeamMember[] = [
       "De teamborrel na de 65 van Walcheren waar ze met een glas rode wijn in de hand de teamfoto maakte die viral ging in de groepsapp.",
     personalQuote: "Rode wijn heeft antioxidanten. Ik noem het sportvoeding.",
     whyRunning:
-      "Eerlijk? Het begon omdat Luuk me uitdaagde. Maar nu kan ik niet meer stoppen. Het is de perfecte balans: doordeweeks trainen, weekend genieten van een goed glas wijn. En de mensen in dit team snappen dat je beide kunt doen zonder je te hoeven verantwoorden.",
+      "Eerlijk? Het begon omdat mijn vriend zo ultra fit aan het worden was dat ik niet achter kon blijven. Maar nu kan ik niet meer stoppen. Het is de perfecte balans: doordeweeks trainen, weekend genieten van een goed glas wijn. En de mensen in dit team snappen dat je beide kunt doen zonder je te hoeven verantwoorden.",
     funFacts: [
       "Heeft altijd een kurkentrekker in haar sporttas 'voor na de finish'",
       "Is de enige in het team die TikTok-content maakt van de borrels EN de trainingen",
