@@ -20,10 +20,10 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    id: "luuk-westerstrate",
-    name: "Luuk Westerstrate",
+    id: "luuk-louwerse",
+    name: "Luuk Louwerse",
     role: "Aanvoerder",
-    image: "/images/team/luuk-westerstrate.jpg",
+    image: "/images/team/luuk-louwerse.jpg",
     shortBio:
       "Oprichter en drijvende kracht achter het EMTÉ Running Team. Loopt het liefst hard met de Westkapelse wind in de rug.",
     fullBio:
@@ -49,17 +49,17 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "fleur-de-visser",
-    name: "Fleur de Visser",
-    role: "Tempomaakster",
-    image: "/images/team/fleur-de-visser.jpg",
+    id: "matthijs-geleijnse",
+    name: "Matthijs Geleijnse",
+    role: "Tempomaker",
+    image: "/images/team/matthijs-geleijnse.jpg",
     shortBio:
-      "De snelste van het team — maar ze wacht altijd op de rest. Meestal.",
+      "De snelste van het team — maar hij wacht altijd op de rest. Meestal.",
     fullBio:
-      "Fleur groeide op in Domburg en verhuisde voor haar studie naar Middelburg, maar het hardlopen langs de Zeeuwse kust liet ze nooit los. Ze is de snelste loper van het team en trekt het tempo graag omhoog tijdens trainingen. Maar haar echte kracht zit in haar vermogen om anderen mee te trekken. Ze loopt het liefst voorop, kijkt regelmatig om, en roept 'kom op, nog even!' — ook als er nog 10 kilometer te gaan is.",
+      "Matthijs groeide op in Domburg en verhuisde voor zijn studie naar Middelburg, maar het hardlopen langs de Zeeuwse kust liet hij nooit los. Hij is de snelste loper van het team en trekt het tempo graag omhoog tijdens trainingen. Maar zijn echte kracht zit in zijn vermogen om anderen mee te trekken. Hij loopt het liefst voorop, kijkt regelmatig om, en roept 'kom op, nog even!' — ook als er nog 10 kilometer te gaan is.",
     favoriteDistance: "10 km",
     bestAchievement:
-      "Eerste vrouw bij de Omloop van Walcheren 10 km met een tijd van 41:32.",
+      "Snelste tijd bij de Omloop van Walcheren 10 km met een tijd van 37:12.",
     bestTeamMoment:
       "Samen met het team trainen op het strand bij Westkapelle bij zonsondergang. Dat voelde als een reclamespot, maar dan echt.",
     personalQuote: "Snel zijn is leuk, maar samen snel zijn is leuker.",
@@ -77,14 +77,14 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "bas-vermeulen",
-    name: "Bas Vermeulen",
+    id: "bart-joziasse",
+    name: "Bart Joziasse",
     role: "Duurloper",
-    image: "/images/team/bas-vermeulen.jpg",
+    image: "/images/team/bart-joziasse.jpg",
     shortBio:
       "Houdt van lange afstanden en langzaam tempo. De rust zelve — totdat de finish in zicht komt.",
     fullBio:
-      "Bas is de stille kracht van het team. Terwijl anderen het tempo opjagen, houdt Bas geduldig vol op zijn eigen ritme. En dat ritme is verrassend effectief: hij heeft de beste uithoudingsvermogen van het hele team. Werkzaam als timmerman in Westkapelle, combineert hij zijn fysieke werk met zijn hardlooptraining. Hij traint het liefst vroeg in de ochtend, als de rest van Walcheren nog slaapt en de dijken helemaal van hem zijn.",
+      "Bart is de stille kracht van het team. Terwijl anderen het tempo opjagen, houdt Bart geduldig vol op zijn eigen ritme. En dat ritme is verrassend effectief: hij heeft het beste uithoudingsvermogen van het hele team. Werkzaam als timmerman in Westkapelle, combineert hij zijn fysieke werk met zijn hardlooptraining. Hij traint het liefst vroeg in de ochtend, als de rest van Walcheren nog slaapt en de dijken helemaal van hem zijn.",
     favoriteDistance: "Marathon",
     bestAchievement:
       "De Kustmarathon Zeeland uitgelopen in 3:28:14 — zijn eerste marathon ooit.",
@@ -105,19 +105,19 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "sanne-de-jong",
-    name: "Sanne de Jong",
+    id: "juriaan-boogaard",
+    name: "Juriaan Boogaard",
     role: "Allrounder",
-    image: "/images/team/sanne-de-jong.jpg",
+    image: "/images/team/juriaan-boogaard.jpg",
     shortBio:
-      "Doet alles een beetje en alles best goed. Van 5 km tot trail — Sanne is overal voor in.",
+      "Doet alles een beetje en alles best goed. Van 5 km tot trail — Juriaan is overal voor in.",
     fullBio:
-      "Sanne is het meest veelzijdige lid van het team. Vraag haar om een 5 km te lopen? Check. Een trailrun door de duinen? Check. Een estafette op het strand? Dubbelcheck. Ze houdt van variatie en weigert zich te specialiseren. 'Ik loop niet om records te breken, ik loop om alles uit te proberen,' zegt ze zelf. Naast het lopen is ze ook de sociale lijm van het team — ze regelt de borrels, de uitjes en de groepsapp.",
+      "Juriaan is het meest veelzijdige lid van het team. Vraag hem om een 5 km te lopen? Check. Een trailrun door de duinen? Check. Een estafette op het strand? Dubbelcheck. Hij houdt van variatie en weigert zich te specialiseren. 'Ik loop niet om records te breken, ik loop om alles uit te proberen,' zegt hij zelf. Naast het lopen is hij ook de sociale lijm van het team — hij regelt de borrels, de uitjes en de groepsapp.",
     favoriteDistance: "15 km",
     bestAchievement:
       "Vier verschillende wedstrijden gelopen in één maand en bij allemaal met een glimlach gefinisht.",
     bestTeamMoment:
-      "De kerstloop door Westkapelle die ze zelf had georganiseerd, compleet met glühwein bij de toren.",
+      "De kerstloop door Westkapelle die hij zelf had georganiseerd, compleet met glühwein bij de toren.",
     personalQuote:
       "Waarom kiezen als je alles kunt doen?",
     whyRunning:
@@ -125,7 +125,7 @@ export const teamMembers: TeamMember[] = [
     funFacts: [
       "Heeft de teamgroepsapp gemaakt en beheert die met ijzeren hand",
       "Plant elk jaar een verrassingsactiviteit voor het team",
-      "Heeft ooit per ongeluk een halve marathon gelopen terwijl ze dacht dat het 10 km was",
+      "Heeft ooit per ongeluk een halve marathon gelopen terwijl hij dacht dat het 10 km was",
     ],
     stats: {
       kmPerWeek: 35,
@@ -134,26 +134,26 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "jesse-klaassen",
-    name: "Jesse Klaassen",
+    id: "imara-murre",
+    name: "Imara Murre",
     role: "Sprinter",
-    image: "/images/team/jesse-klaassen.jpg",
+    image: "/images/team/imara-murre.jpg",
     shortBio:
       "De jongste van het team. Snel, enthousiast en altijd in voor een sprint op het einde.",
     fullBio:
-      "Jesse is pas 22 en de nieuwste aanwinst van het EMTÉ Running Team. Hij brengt jeugdig enthousiasme, ongebreidelde energie en een gezonde dosis competitiedrang mee. Hoewel hij nog relatief kort hardloopt, heeft hij al laten zien dat hij talent heeft — vooral op de kortere afstanden. Jesse studeert in Vlissingen en traint vaak langs de boulevard en de duinen rond Westkapelle. Hij is altijd de eerste die 'ja' zegt tegen een nieuw evenement.",
+      "Imara is pas 22 en de nieuwste aanwinst van het EMTÉ Running Team. Ze brengt jeugdig enthousiasme, ongebreidelde energie en een gezonde dosis competitiedrang mee. Hoewel ze nog relatief kort hardloopt, heeft ze al laten zien dat ze talent heeft — vooral op de kortere afstanden. Imara studeert in Vlissingen en traint vaak langs de boulevard en de duinen rond Westkapelle. Ze is altijd de eerste die 'ja' zegt tegen een nieuw evenement.",
     favoriteDistance: "5 km",
     bestAchievement:
-      "Zijn eerste 5 km onder de 19 minuten, gelopen tijdens de Boulevard Run in Vlissingen.",
+      "Haar eerste 5 km onder de 20 minuten, gelopen tijdens de Boulevard Run in Vlissingen.",
     bestTeamMoment:
-      "De teamfoto bij de finish van de 65 van Walcheren — dat was het moment dat hij echt voelde dat hij bij het team hoorde.",
+      "De teamfoto bij de finish van de 65 van Walcheren — dat was het moment dat ze echt voelde dat ze bij het team hoorde.",
     personalQuote: "Last maar niet least — usually niet last.",
     whyRunning:
       "Eerlijk? Het begon omdat Luuk me uitdaagde. Maar nu kan ik niet meer stoppen. Er is iets verslavends aan jezelf steeds sneller zien worden. En de mensen in dit team maken het extra leuk — het voelt als een sportfamilie.",
     funFacts: [
-      "Heeft altijd twee energiegels in zijn broekzak 'voor noodgevallen'",
+      "Heeft altijd twee energiegels in haar broekzak 'voor noodgevallen'",
       "Is de enige in het team die TikTok-content maakt van de trainingen",
-      "Kan een sprint van 200 meter inzetten na 60 km hardlopen (beweert hij)",
+      "Kan een sprint van 200 meter inzetten na 60 km hardlopen (beweert ze)",
     ],
     stats: {
       kmPerWeek: 40,
@@ -162,14 +162,14 @@ export const teamMembers: TeamMember[] = [
     },
   },
   {
-    id: "eva-pieters",
-    name: "Eva Pieters",
+    id: "evi-passenier",
+    name: "Evi Passenier",
     role: "Trailrunner",
-    image: "/images/team/eva-pieters.jpg",
+    image: "/images/team/evi-passenier.jpg",
     shortBio:
       "Geeft de voorkeur aan onverharde paden, duinen en modder. De avonturier van het team.",
     fullBio:
-      "Eva ontdekte trailrunning tijdens een vakantie in de Ardennen en was meteen verkocht. Terug in Zeeland ging ze op zoek naar vergelijkbare uitdagingen en vond die in de duinen rond Westkapelle en het achterland van Walcheren. Ze brengt een avontuurlijke spirit mee die het team inspireert om ook eens van het asfalt af te stappen. Als verpleegkundige in het Admiraal De Ruyter Ziekenhuis weet ze bovendien alles over blessurepreventie en herstel.",
+      "Evi ontdekte trailrunning tijdens een vakantie in de Ardennen en was meteen verkocht. Terug in Zeeland ging ze op zoek naar vergelijkbare uitdagingen en vond die in de duinen rond Westkapelle en het achterland van Walcheren. Ze brengt een avontuurlijke spirit mee die het team inspireert om ook eens van het asfalt af te stappen. Als verpleegkundige in het Admiraal De Ruyter Ziekenhuis weet ze bovendien alles over blessurepreventie en herstel.",
     favoriteDistance: "Trail 25 km",
     bestAchievement:
       "De Duin Ultra Trail (30 km door de Zeeuwse duinen) uitgelopen als derde vrouw.",
