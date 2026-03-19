@@ -1,4 +1,5 @@
 import { Metadata } from "next";
+import Image from "next/image";
 import { teamMembers } from "@/data/team";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionHeading from "@/components/ui/SectionHeading";
@@ -27,6 +28,27 @@ export default function TeamPage() {
               centered
               light
             />
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Team groepsfoto */}
+      <section className="bg-white py-16">
+        <div className="mx-auto max-w-5xl px-6">
+          <AnimatedSection>
+            <div className="relative overflow-hidden rounded-2xl shadow-xl">
+              <Image
+                src="/images/team-group.jpeg"
+                alt="Het EMTE Running Team — groepsfoto"
+                width={1200}
+                height={600}
+                className="w-full h-auto object-cover"
+              />
+              <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent px-8 py-6">
+                <p className="text-lg font-bold text-white">Ons team</p>
+                <p className="text-sm text-white/80">Samen sterker, samen sneller — vanuit Westkapelle</p>
+              </div>
+            </div>
           </AnimatedSection>
         </div>
       </section>

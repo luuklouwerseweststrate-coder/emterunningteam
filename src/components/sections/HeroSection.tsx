@@ -100,7 +100,7 @@ export default function HeroSection() {
               <div className="absolute -inset-1 bg-gradient-to-br from-emte-yellow via-emte-yellow-light to-emte-yellow/40 rounded-2xl opacity-60 blur-sm" />
               <div className="relative rounded-2xl overflow-hidden border-2 border-emte-yellow/30">
                 <Image
-                  src="/images/team-group.jpg"
+                  src="/images/team-group.jpeg"
                   alt="EMTE Running Team bij de finish van de 65 van Walcheren"
                   width={800}
                   height={600}

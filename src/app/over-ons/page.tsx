@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
@@ -122,6 +123,21 @@ export default function OverOnsPage() {
             </AnimatedSection>
 
             <AnimatedSection delay={0.1}>
+              <div className="relative my-10 overflow-hidden rounded-2xl shadow-lg">
+                <Image
+                  src="/images/team-group.jpeg"
+                  alt="Het EMTE Running Team samen op de Walcherse kust"
+                  width={800}
+                  height={500}
+                  className="w-full h-auto object-cover"
+                />
+                <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/50 to-transparent px-6 py-4">
+                  <p className="text-sm font-medium text-white">Het EMTE Running Team — samen onderweg</p>
+                </div>
+              </div>
+            </AnimatedSection>
+
+            <AnimatedSection delay={0.2}>
               <div className="space-y-6 text-lg leading-relaxed text-emte-gray-700">
                 <p>
                   Het begon allemaal met een weddenschap bij de koffieautomaat in Westkapelle. In 2019
