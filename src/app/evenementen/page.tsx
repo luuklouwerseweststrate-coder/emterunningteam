@@ -35,9 +35,9 @@ export default function EvenementenPage() {
             </h1>
             <div className="mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mt-6 max-w-2xl text-lg text-emte-gray-200">
-              Van lokale bosloopjes tot grote stadsmarathons — het EMTE Running
-              Team is overal te vinden. Bekijk waar je ons kunt tegenkomen en
-              sluit je aan!
+              Van duinlopen langs de Walcherse kust tot grote marathons door Zeeland
+              — het EMTE Running Team is overal te vinden. Bekijk waar je ons kunt
+              tegenkomen en sluit je aan!
             </p>
           </AnimatedSection>
         </div>
@@ -178,9 +178,9 @@ export default function EvenementenPage() {
                 Loop je volgende wedstrijd met ons
               </h2>
               <p className="mx-auto mt-4 max-w-xl text-lg text-emte-gray-200">
-                Samen trainen, samen reizen, samen finishen. Sluit je aan bij
-                het EMTE Running Team en maak van elke wedstrijd een
-                teambelevenis.
+                Samen trainen langs de Zeeuwse kust, samen reizen, samen finishen.
+                Sluit je aan bij het EMTE Running Team vanuit Westkapelle en maak
+                van elke wedstrijd een teambelevenis.
               </p>
               <div className="mt-10 grid gap-8 sm:grid-cols-3">
                 {[

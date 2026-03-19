@@ -43,7 +43,7 @@ export default function ContactPage() {
             </h1>
             <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-emte-gray-200 sm:text-xl">
-              Vragen, idee&euml;n of gewoon even hallo zeggen? We horen graag van je.
+              Vragen, idee&euml;n of gewoon even hallo zeggen? We zitten in Westkapelle, aan de voet van de vuurtoren. Kom langs of stuur een bericht!
             </p>
           </AnimatedSection>
         </div>
@@ -293,7 +293,7 @@ export default function ContactPage() {
                     <div>
                       <h3 className="font-semibold text-emte-gray-900">Locatie</h3>
                       <p className="mt-1 text-emte-gray-600">
-                        Eindhoven, Noord-Brabant
+                        Westkapelle, Zeeland
                       </p>
                     </div>
                   </div>
@@ -307,7 +307,7 @@ export default function ContactPage() {
                     </h3>
                     <p className="mt-2 text-sm text-emte-gray-600">
                       Wil je jouw merk verbinden aan een ambitieus en groeiend
-                      hardloopteam? Ontdek onze sponsormogelijkheden.
+                      hardloopteam uit Zeeland? Ontdek onze sponsormogelijkheden.
                     </p>
                     <div className="mt-4">
                       <Button href="/sponsoren" variant="secondary" size="sm">
@@ -387,7 +387,7 @@ export default function ContactPage() {
                   Kaart volgt binnenkort
                 </p>
                 <p className="mt-1 text-sm text-emte-gray-400">
-                  Eindhoven, Noord-Brabant
+                  Westkapelle, Zeeland &mdash; niet te missen, net als de vuurtoren
                 </p>
               </div>
             </div>

@@ -14,13 +14,13 @@ const timeline = [
     year: '2019',
     title: 'Oprichting',
     description:
-      'Een klein groepje collega\'s begint samen te hardlopen in de lunchpauze. Wat begint als excuus om even weg te zijn van het bureau, groeit al snel uit tot een wekelijks ritueel.',
+      'Een klein groepje collega\'s in Westkapelle begint samen te hardlopen langs de duinen. Wat begint als excuus om even weg te zijn van het bureau, groeit al snel uit tot een wekelijks ritueel met de Zeeuwse kust als decor.',
   },
   {
     year: '2020',
     title: 'Eerste Officieel Evenement',
     description:
-      'Ondanks corona weten we ons eerste officiële evenement te organiseren - een virtuele 10 km loop. De teamspirit blijkt sterker dan welk virus dan ook.',
+      'Ondanks corona weten we ons eerste officiële evenement te organiseren - een virtuele 10 km over de Walcherse dijk. De teamspirit blijkt sterker dan welk virus dan ook.',
   },
   {
     year: '2022',
@@ -38,7 +38,7 @@ const timeline = [
     year: '2024',
     title: 'Recordjaar',
     description:
-      'Met een recordaantal deelnames aan evenementen en een steeds groeiend team bewijzen we dat ambitie en plezier hand in hand gaan.',
+      'Met deelnames aan de 65 van Walcheren, de Kustmarathon Zeeland en een steeds groeiend team bewijzen we dat Zeeuwse nuchterheid en ambitie prima samengaan.',
   },
 ];
 
@@ -62,7 +62,7 @@ const cultuurCards = [
     ),
     title: 'Ambitie',
     description:
-      'We leggen de lat hoog, maar wel op een gezonde manier. Persoonlijke records zijn fantastisch, maar niet ten koste van plezier of gezondheid.',
+      'Nuchter maar ambitieus — Zeeuws tot op het bot. We leggen de lat hoog, maar wel op een gezonde manier. PR\'s zijn fantastisch, maar niet ten koste van plezier of gezondheid.',
   },
   {
     icon: (
@@ -102,8 +102,8 @@ export default function OverOnsPage() {
             </h1>
             <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-emte-gray-200 sm:text-xl">
-              Meer dan een hardloopteam. Een verhaal van collega&apos;s die samen
-              kilometers, herinneringen en af en toe een blaar delen.
+              Meer dan een hardloopteam. Een verhaal van Westkapelse collega&apos;s die samen
+              kilometers langs de kust, herinneringen en af en toe een blaar delen.
             </p>
           </AnimatedSection>
         </div>
@@ -124,28 +124,28 @@ export default function OverOnsPage() {
             <AnimatedSection delay={0.1}>
               <div className="space-y-6 text-lg leading-relaxed text-emte-gray-700">
                 <p>
-                  Het begon allemaal met een weddenschap bij de koffieautomaat. In 2019
+                  Het begon allemaal met een weddenschap bij de koffieautomaat in Westkapelle. In 2019
                   daagde een collega een paar anderen uit om mee te doen aan een lokale 5
-                  km loop. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde laatste
+                  km loop langs de Walcherse kust. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde laatste
                   woorden. Drie weken later stonden vijf hijgende collega&apos;s aan de
-                  finish, met rode koppen en een gevoel van euforie dat geen enkele
+                  finish bij de vuurtoren, met rode koppen en een gevoel van euforie dat geen enkele
                   vergadering ooit had opgeleverd.
                 </p>
                 <p>
                   Wat volgde was onverwacht. Die vijf werden er acht, dan twaalf, dan
-                  twintig. De lunchpauze-rondje om het kantoor werd een wekelijkse
-                  training. De WhatsApp-groep &quot;Even Rennen?&quot; groeide sneller dan
-                  welk Slack-kanaal dan ook. En ergens tussen de intervaltrainingen en de
-                  nabespreking bij de lokale kroeg ontstond er iets bijzonders: het EMTE
+                  twintig. Het lunchpauze-rondje over de dijk werd een wekelijkse
+                  training langs de duinen en de kust. De WhatsApp-groep &quot;Even Rennen?&quot; groeide sneller dan
+                  welk Slack-kanaal dan ook. En ergens tussen de intervaltrainingen op het strand en de
+                  nabespreking bij de lokale kroeg in Westkapelle ontstond er iets bijzonders: het EMTE
                   Running Team.
                 </p>
                 <p>
                   Vandaag de dag zijn we een hecht team van hardlopers met uiteenlopende
-                  achtergronden en niveaus. Van de collega die haar eerste 5 km wil lopen
+                  achtergronden en niveaus, gevestigd op het mooiste puntje van Walcheren. Van de collega die haar eerste 5 km wil lopen
                   tot de veteraan die zijn zoveelste marathon voorbereidt. Wat ons bindt?
-                  De liefde voor bewegen, de kracht van samen, en het besef dat de beste
-                  ideeën ontstaan als je kilometertje 7 voorbij rent en je hoofd
-                  eindelijk leeg is.
+                  De Zeeuwse nuchterheid, een gezonde dosis ambitie, en het besef dat de beste
+                  ideeën ontstaan als je kilometertje 7 voorbij rent met de wind in je gezicht
+                  en de vuurtoren in zicht.
                 </p>
               </div>
             </AnimatedSection>

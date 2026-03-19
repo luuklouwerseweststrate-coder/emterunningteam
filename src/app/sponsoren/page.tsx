@@ -82,9 +82,9 @@ const testimonials = [
   },
   {
     quote:
-      'De zichtbaarheid die we krijgen bij lokale evenementen is fantastisch. Maar wat het echt bijzonder maakt, zijn de mensen — een geweldig team om mee samen te werken.',
+      'De zichtbaarheid die we krijgen bij evenementen door heel Zeeland is fantastisch. Van de Kustmarathon tot lokale lopen op Walcheren — maar wat het echt bijzonder maakt, zijn de mensen. Een geweldig team om mee samen te werken.',
     author: 'Linda Bakker',
-    company: 'Breda Sport',
+    company: 'Bakker Sport Middelburg',
   },
 ];
 
@@ -109,8 +109,8 @@ export default function SponsorenPage() {
               <div className="mt-4 h-1.5 w-24 rounded-full bg-emte-yellow" />
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-emte-gray-200">
                 Het EMTE Running Team groeit dankzij de steun van onze partners.
-                Samen bouwen we aan een sterkere hardloopgemeenschap in de regio
-                Breda en daarbuiten.
+                Samen bouwen we aan een sterkere hardloopgemeenschap op Walcheren,
+                in Zeeland en daarbuiten.
               </p>
             </div>
           </AnimatedSection>
@@ -128,10 +128,10 @@ export default function SponsorenPage() {
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-600">
                 Sponsoring van het EMTE Running Team is een investering in
-                zichtbaarheid, lokale betrokkenheid en een gezonde gemeenschap.
-                Onze partners zijn geen nummers — ze maken deel uit van het team.
-                We geloven in langdurige samenwerkingen die waarde creëren voor
-                beide kanten.
+                zichtbaarheid door heel Zeeland, lokale betrokkenheid op Walcheren
+                en een gezonde gemeenschap. Van de Kustmarathon tot dorpsfeesten
+                — uw merk is zichtbaar waar het ertoe doet. Onze partners zijn
+                geen nummers — ze maken deel uit van het team.
               </p>
             </AnimatedSection>
           </div>
@@ -421,9 +421,9 @@ export default function SponsorenPage() {
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-200">
-                Wilt u uw merk verbinden aan sport, gezondheid en de lokale
+                Wilt u uw merk verbinden aan sport, gezondheid en de Zeeuwse
                 gemeenschap? Wij vertellen u graag meer over de mogelijkheden.
-                Geen verplichtingen, wel een goed gesprek.
+                Geen verplichtingen, wel een goed gesprek — het liefst met uitzicht op de kust.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button variant="secondary" size="lg" href="/contact">

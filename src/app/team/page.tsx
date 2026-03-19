@@ -23,7 +23,7 @@ export default function TeamPage() {
           <AnimatedSection>
             <SectionHeading
               title="Ons Team"
-              subtitle="De gezichten achter de kilometers. Maak kennis met de hardlopers, coaches en vrijwilligers die het EMTE Running Team vormen."
+              subtitle="De gezichten achter de kilometers langs de Westkapelse kust. Maak kennis met de hardlopers, coaches en vrijwilligers die het EMTE Running Team vormen — van de vuurtoren tot de finish."
               centered
               light
             />
@@ -37,12 +37,14 @@ export default function TeamPage() {
           <AnimatedSection>
             <div className="mx-auto mb-16 max-w-3xl text-center">
               <p className="text-lg leading-relaxed text-emte-gray-700">
-                Bij het EMTE Running Team draait alles om samen beter worden.
-                Ieder teamlid brengt unieke kwaliteiten mee — van jarenlange
-                ervaring tot aanstekelijk enthousiasme. Of je nu een doorgewinterde
-                marathonloper bent of net je eerste kilometers loopt, bij ons vind
-                je altijd een trainingsmaatje. Klik op een teamlid om meer te lezen
-                over hun verhaal.
+                Bij het EMTE Running Team in Westkapelle draait alles om samen
+                beter worden — met de Zeeuwse kust als ons thuiscircuit. Ieder
+                teamlid brengt unieke kwaliteiten mee, van jarenlange ervaring
+                tot aanstekelijk enthousiasme. Of je nu een doorgewinterde
+                marathonloper bent of net je eerste kilometers over de Walcherse
+                dijk loopt, bij ons vind je altijd een trainingsmaatje. Nuchter
+                maar gedreven, zo zijn we hier in Zeeland. Klik op een teamlid
+                om meer te lezen over hun verhaal.
               </p>
             </div>
           </AnimatedSection>
