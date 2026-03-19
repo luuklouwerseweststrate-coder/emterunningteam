@@ -31,7 +31,7 @@ export default function ContactPage() {
   return (
     <>
       {/* Hero */}
-      <section className="relative overflow-hidden bg-emte-green py-24 sm:py-32">
+      <section className="relative overflow-hidden bg-emte-green pb-20 pt-44 sm:pt-52">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute -right-20 -top-20 h-96 w-96 rounded-full bg-emte-yellow" />
           <div className="absolute -bottom-32 -left-32 h-[500px] w-[500px] rounded-full bg-emte-yellow" />

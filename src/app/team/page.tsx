@@ -15,7 +15,7 @@ export default function TeamPage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative overflow-hidden bg-gradient-to-br from-emte-green-dark via-emte-green to-emte-green-light py-24 sm:py-32">
+      <section className="relative overflow-hidden bg-gradient-to-br from-emte-green-dark via-emte-green to-emte-green-light pb-20 pt-44 sm:pt-52">
         <div className="absolute inset-0 opacity-10">
           <div className="absolute -right-20 -top-20 h-96 w-96 rounded-full bg-emte-yellow" />
           <div className="absolute -bottom-32 -left-20 h-80 w-80 rounded-full bg-emte-yellow" />

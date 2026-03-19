@@ -89,7 +89,7 @@ export default function SponsorenPage() {
   return (
     <main className="min-h-screen">
       {/* Hero */}
-      <section className="relative overflow-hidden bg-emte-green-dark pb-24 pt-32">
+      <section className="relative overflow-hidden bg-emte-green-dark pb-24 pt-44 sm:pt-52">
         <div className="absolute inset-0">
           <div className="absolute -right-40 top-0 h-[500px] w-[500px] rounded-full bg-emte-green/40 blur-3xl" />
           <div className="absolute -left-20 bottom-0 h-80 w-80 rounded-full bg-emte-yellow/10 blur-2xl" />

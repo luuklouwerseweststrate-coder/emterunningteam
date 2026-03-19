@@ -164,25 +164,25 @@ export const teamMembers: TeamMember[] = [
   {
     id: "evi-passenier",
     name: "Evi Passenier",
-    role: "Prosecco Princess",
+    role: "Speciaalbierwetenschapper",
     image: "/images/teamlid_evi.png",
     shortBio:
-      "Trailrunner met een zwak voor prosecco. Overdag door de duinen, 's avonds bubbels op het terras.",
+      "Trailrunner met een passie voor speciaalbier. Overdag door de duinen, 's avonds een tripel op het terras.",
     fullBio:
-      "Evi combineert trailrunning met prosecco alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een glas bubbels op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert — zowel op de trail als bij de borrel. Als verpleegkundige weet ze precies hoeveel je kunt drinken en nog steeds kunt presteren. Wetenschap in dienst van de hybride atleet.",
+      "Evi combineert trailrunning met speciaalbier alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een lokaal gebrouwen IPA op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert — zowel op de trail als bij de borrel. Als verpleegkundige én bierkenner weet ze precies welk speciaalbiertje past bij welke afstand. Wetenschap in dienst van de hybride atleet.",
     favoriteDistance: "Trail 25 km",
     bestAchievement:
-      "De Duin Ultra Trail (30 km) uitgelopen als derde vrouw, gevierd met een fles prosecco op het strand.",
+      "De Duin Ultra Trail (30 km) uitgelopen als derde vrouw, gevierd met een lokale tripel op het strand.",
     bestTeamMoment:
-      "De teamtraining door de duinen bij Domburg die eindigde bij een strandtent met prosecco voor iedereen. Zo hoort het.",
+      "De teamtraining door de duinen bij Domburg die eindigde bij een strandtent waar ze het hele team liet kennismaken met Zeeuwse speciaalbieren. Zo hoort het.",
     personalQuote:
-      "De mooiste routes eindigen bij een terras.",
+      "De mooiste routes eindigen bij een craft beer bar.",
     whyRunning:
-      "Hardlopen in de natuur is mijn excuus om daarna zonder schuldgevoel prosecco te drinken op het terras. De duinen in, het zweet eruit, en dan belonen met bubbels. Met dit team erbij wordt elke trail een feestje — letterlijk, want er is altijd iemand die een fles meeneemt.",
+      "Hardlopen in de natuur is mijn excuus om daarna zonder schuldgevoel een speciaalbiertje te drinken op het terras. De duinen in, het zweet eruit, en dan belonen met een goed gebrouwen tripel of IPA. Met dit team erbij wordt elke trail een proeverij — letterlijk, want er is altijd iemand die iets nieuws heeft ontdekt.",
     funFacts: [
-      "Heeft altijd een mini-flesje prosecco in haar sporttas voor na de finish",
-      "Verzamelt finisher-medailles en hangt ze aan haar wijnrek",
-      "Kent elk terras op Walcheren beter dan elk duinpad",
+      "Heeft altijd een speciaalbiergids in haar sporttas voor na de finish",
+      "Verzamelt finisher-medailles én bierdopjes uit elke stad waar ze een race loopt",
+      "Kent elk brouwerijcafé op Walcheren beter dan elk duinpad",
     ],
     stats: {
       kmPerWeek: 45,
