@@ -10,17 +10,19 @@ export default function IntroSection() {
         <AnimatedSection>
           <SectionHeading
             title="Meer dan een hardloopteam"
-            subtitle="Wij zijn het EMTÉ Running Team"
+            subtitle="Wij zijn het EMTE Running Team"
           />
         </AnimatedSection>
         <AnimatedSection delay={0.2}>
           <p className="text-lg text-emte-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Wat begon als een groepje collega&apos;s dat samen een rondje ging lopen,
-            is uitgegroeid tot een ambitieus running team met een duidelijke missie:
-            laten zien dat hardlopen leuker is als je het samen doet. Of je nu traint
-            voor je eerste 5 kilometer of je voorbereidt op een marathon — bij ons vind
-            je de juiste energie, het juiste gezelschap en af en toe een goed excuus
-            om taart te eten na de finish.
+            Wat begon als een groepje hardlopers uit Westkapelle dat samen de
+            dijken van Walcheren onveilig maakte, is uitgegroeid tot een
+            ambitieus running team met een duidelijke missie: laten zien dat
+            hardlopen leuker is als je het samen doet. Met de Zeeuwse kust als
+            ons decor en de wind als vaste trainingspartner — of je nu traint
+            voor je eerste 5 kilometer of je voorbereidt op een marathon — bij
+            ons vind je de juiste energie, het juiste gezelschap en af en toe een
+            goed excuus om taart te eten na de finish.
           </p>
         </AnimatedSection>
         <AnimatedSection delay={0.4}>
@@ -30,19 +32,19 @@ export default function IntroSection() {
                 title: "Ambitie",
                 description:
                   "We leggen de lat hoog, maar houden de sfeer laag. Presteren doe je samen.",
-                icon: "🎯",
+                icon: "\uD83C\uDFAF",
               },
               {
-                title: "Teamgevoel",
+                title: "Zeeuws DNA",
                 description:
-                  "Elke kilometer telt, of je nu eerste of laatste wordt. Bij ons hoort iedereen erbij.",
-                icon: "🤝",
+                  "Nuchter, vastberaden en altijd klaar voor een rondje Walcheren. Hardlopen met kustkarakter.",
+                icon: "\uD83C\uDF0A",
               },
               {
                 title: "Plezier",
                 description:
                   "Serieus trainen, maar nooit vergeten waarom we het doen: omdat het gewoon leuk is.",
-                icon: "⚡",
+                icon: "\u26A1",
               },
             ].map((item) => (
               <div

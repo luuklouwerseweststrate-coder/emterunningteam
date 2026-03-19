@@ -2,7 +2,7 @@ export interface TeamMember {
   id: string;
   name: string;
   role: string;
-  image?: string;
+  image: string;
   shortBio: string;
   fullBio: string;
   favoriteDistance: string;
@@ -20,222 +20,174 @@ export interface TeamMember {
 
 export const teamMembers: TeamMember[] = [
   {
-    id: "jan-de-vries",
-    name: "Jan de Vries",
-    role: "Voorzitter & Hardloper",
+    id: "luuk-westerstrate",
+    name: "Luuk Westerstrate",
+    role: "Aanvoerder",
+    image: "/images/team/luuk-westerstrate.jpg",
     shortBio:
-      "Oprichter van EMTE Running Team en gepassioneerd marathonloper met meer dan 15 jaar ervaring.",
+      "Oprichter en drijvende kracht achter het EMTÉ Running Team. Loopt het liefst hard met de Westkapelse wind in de rug.",
     fullBio:
-      "Jan begon met hardlopen toen hij 28 was, op aanraden van een collega. Wat begon als een manier om fit te blijven, groeide al snel uit tot een levenslange passie. Na het lopen van zijn eerste marathon in Rotterdam wist hij: dit is wat ik wil blijven doen. In 2018 richtte hij samen met een paar gelijkgestemde collega's het EMTE Running Team op. Sindsdien heeft hij het team zien groeien van een handvol enthousiastelingen tot een hechte groep van gedreven hardlopers. Als voorzitter combineert hij zijn organisatietalent met zijn liefde voor de sport.",
-    favoriteDistance: "Marathon (42.195 km)",
+      "Luuk is het brein achter het EMTÉ Running Team. Wat begon als een grap bij de koffieautomaat — 'zullen we de 65 van Walcheren doen?' — werd al snel serieus toen iedereen ja zei. Sindsdien is hij de onofficiële aanvoerder, motivator en regelneef van het team. Als echte Westkapellenaar kent hij elke dijk, elk duinpad en elke windrichting op Walcheren. Hij combineert een nuchter Zeeuws karakter met een aanstekelijk enthousiasme voor de sport.",
+    favoriteDistance: "Halve marathon",
     bestAchievement:
-      "Finishen van de Amsterdam Marathon in 3:12:45, een persoonlijk record dat hij na jaren trainen wist te bereiken.",
+      "De 65 van Walcheren uitlopen met het complete team — alle zes over de finish, niemand achtergelaten.",
     bestTeamMoment:
-      "De eerste editie van onze eigen EMTE Team Relay, waar het hele team samen de finish haalde onder luid gejuich.",
+      "Het moment dat we met z'n zessen de finishboog van de 65 van Walcheren door kwamen en de medailles kregen omgehangen. Dat voelde als een echt team.",
     personalQuote:
-      "Elke kilometer die je loopt, is een investering in jezelf.",
+      "Als de wind tegenzit, draai je gewoon om. Dan heb je de wind mee.",
     whyRunning:
-      "Hardlopen geeft me rust in mijn hoofd en energie in mijn lichaam. Het is het moment van de dag waarop alles wegvalt en ik volledig bij mezelf ben. Bovendien is er niets mooiers dan die ervaring te delen met een team van gelijkgestemden.",
+      "Hardlopen is voor mij de simpelste manier om mijn hoofd leeg te maken. Schoenen aan, deur uit, dijken op. In Westkapelle heb je de perfecte omgeving: zee, duinen, weilanden. En als je dan na een uur weer thuiskomt, is alles een stukje helderder.",
     funFacts: [
-      "Heeft altijd een banaan in zijn sporttas",
-      "Kan de Rotterdam Marathon-route uit zijn hoofd tekenen",
-      "Draagt gelukssokken bij elke wedstrijd",
-    ],
-    stats: {
-      kmPerWeek: 65,
-      races: 34,
-      prs: 12,
-    },
-  },
-  {
-    id: "lisa-bakker",
-    name: "Lisa Bakker",
-    role: "Trainer & Hardloper",
-    shortBio:
-      "Gecertificeerd hardloopcoach die het team helpt met gestructureerde trainingsschema's en motivatie.",
-    fullBio:
-      "Lisa ontdekte hardlopen tijdens haar studietijd en raakte meteen verslaafd aan het gevoel na een goede training. Ze behaalde haar coaching-certificaat en begon andere lopers te begeleiden. Bij het EMTE Running Team is ze verantwoordelijk voor de wekelijkse trainingen en helpt ze ieder teamlid om het beste uit zichzelf te halen. Haar aanpak is persoonlijk: ze gelooft dat iedereen een eigen pad heeft naar succes.",
-    favoriteDistance: "Halve marathon (21.1 km)",
-    bestAchievement:
-      "Top-10 finish bij de Halve Marathon van Eindhoven met een tijd van 1:28:33.",
-    bestTeamMoment:
-      "Toen drie teamleden op dezelfde dag hun eerste halve marathon uitliepen en we samen stonden te juichen bij de finish.",
-    personalQuote: "Snel of langzaam, je bent iedereen op de bank voor.",
-    whyRunning:
-      "Hardlopen is voor mij meer dan sport — het is therapie, meditatie en avontuur ineen. Ik hou ervan om anderen te zien groeien en hun doelen te bereiken. Dat geeft mij net zoveel voldoening als mijn eigen prestaties.",
-    funFacts: [
-      "Maakt de beste energierepen van het team",
-      "Heeft in 8 verschillende landen hardgelopen",
-      "Begint elke training met dezelfde playlist",
-    ],
-    stats: {
-      kmPerWeek: 55,
-      races: 28,
-      prs: 9,
-    },
-  },
-  {
-    id: "mark-jansen",
-    name: "Mark Jansen",
-    role: "Penningmeester & Hardloper",
-    shortBio:
-      "Trailrunner in hart en nieren die ook de financiën van het team beheert.",
-    fullBio:
-      "Mark kwam bij het EMTE Running Team via een toevallige ontmoeting tijdens een trailrun in de Ardennen. Als fervent trailrunner brengt hij een ander perspectief in het team. Naast het lopen op onverharde paden houdt hij ook de financiën van het team scherp in de gaten. Mark gelooft dat hardlopen in de natuur de ultieme manier is om te ontsnappen aan de drukte van alledag.",
-    favoriteDistance: "Trail 30 km",
-    bestAchievement:
-      "Voltooien van de Trail des Fagnes, een uitdagende 50 km trail door de Belgische Ardennen.",
-    bestTeamMoment:
-      "Ons eerste teamweekend in de Ardennen, waar we samen een trail van 25 km liepen en 's avonds bij het kampvuur zaten.",
-    personalQuote: "De berg op is optioneel, de berg af is verplicht.",
-    whyRunning:
-      "Op de trail voel ik me vrij. Geen stoplichten, geen verkeer, alleen ik en de natuur. Het is het eerlijkste dat er is: jij tegen het terrein. Die eenvoud spreekt me enorm aan.",
-    funFacts: [
-      "Verzamelt finisher-medailles uit elk land",
-      "Heeft een geheime stash energiegels in zijn auto",
-      "Kan de hoogtemeters van elke trail uit zijn hoofd opnoemen",
+      "Heeft de teamshirts met de Westkapelse toren ontworpen",
+      "Kan het Zeeuwse volkslied zingen tijdens het lopen",
+      "Beweert dat tegenwind je sterker maakt (zegt dat bij élke training)",
     ],
     stats: {
       kmPerWeek: 50,
-      races: 22,
+      races: 18,
       prs: 7,
     },
   },
   {
-    id: "sophie-mulder",
-    name: "Sophie Mulder",
-    role: "Wedstrijdcoördinator",
+    id: "fleur-de-visser",
+    name: "Fleur de Visser",
+    role: "Tempomaakster",
+    image: "/images/team/fleur-de-visser.jpg",
     shortBio:
-      "Organisatorisch talent dat ervoor zorgt dat het team altijd goed vertegenwoordigd is bij wedstrijden.",
+      "De snelste van het team — maar ze wacht altijd op de rest. Meestal.",
     fullBio:
-      "Sophie begon pas drie jaar geleden met hardlopen, maar haar enthousiasme is aanstekelijk. Ze ontdekte al snel dat ze niet alleen van het lopen zelf hield, maar ook van alles eromheen: de voorbereiding, de tactiek, het samenwerken. Als wedstrijdcoördinator regelt ze inschrijvingen, vervoer en logistiek. Ze is het aanspreekpunt voor alles wat met wedstrijden te maken heeft.",
+      "Fleur groeide op in Domburg en verhuisde voor haar studie naar Middelburg, maar het hardlopen langs de Zeeuwse kust liet ze nooit los. Ze is de snelste loper van het team en trekt het tempo graag omhoog tijdens trainingen. Maar haar echte kracht zit in haar vermogen om anderen mee te trekken. Ze loopt het liefst voorop, kijkt regelmatig om, en roept 'kom op, nog even!' — ook als er nog 10 kilometer te gaan is.",
     favoriteDistance: "10 km",
     bestAchievement:
-      "Haar eerste 10 km onder de 45 minuten, slechts anderhalf jaar na haar eerste hardloopstap.",
+      "Eerste vrouw bij de Omloop van Walcheren 10 km met een tijd van 41:32.",
     bestTeamMoment:
-      "De dag dat we als compleet team de Zevenheuvelenloop liepen en iedereen de finish haalde.",
-    personalQuote:
-      "Het gaat niet om hoe snel je gaat, maar dat je op weg bent.",
+      "Samen met het team trainen op het strand bij Westkapelle bij zonsondergang. Dat voelde als een reclamespot, maar dan echt.",
+    personalQuote: "Snel zijn is leuk, maar samen snel zijn is leuker.",
     whyRunning:
-      "Hardlopen heeft me laten zien dat ik meer kan dan ik dacht. Elke keer als ik denk dat ik niet verder kan, blijkt er toch nog een tandje bij te kunnen. Die les neem ik mee in alles wat ik doe.",
+      "Het begon als manier om fit te blijven, maar het werd al snel een verslaving. Die runner's high na een goede intervaltraining — daar doe ik het voor. En eerlijk: ik vind het stiekem ook leuk om de snelste te zijn.",
     funFacts: [
-      "Heeft een spreadsheet voor elke wedstrijd",
-      "Draagt altijd een groen haarbandje tijdens het lopen",
-      "Is de onofficiële team-fotograaf",
+      "Draagt altijd felgele sokken bij wedstrijden",
+      "Heeft een geheime afspeellijst die niemand mag horen",
+      "Eet meer bolussen dan verantwoord is voor een hardloper",
     ],
     stats: {
-      kmPerWeek: 35,
-      races: 15,
-      prs: 6,
+      kmPerWeek: 55,
+      races: 22,
+      prs: 11,
     },
   },
   {
-    id: "tom-hendriks",
-    name: "Tom Hendriks",
-    role: "Social Media & Hardloper",
+    id: "bas-vermeulen",
+    name: "Bas Vermeulen",
+    role: "Duurloper",
+    image: "/images/team/bas-vermeulen.jpg",
     shortBio:
-      "Creatieve geest die de verhalen van het team vastlegt en deelt met de buitenwereld.",
+      "Houdt van lange afstanden en langzaam tempo. De rust zelve — totdat de finish in zicht komt.",
     fullBio:
-      "Tom combineert zijn passie voor hardlopen met zijn talent voor storytelling. Als social media-verantwoordelijke zorgt hij ervoor dat de belevenissen van het EMTE Running Team een breed publiek bereiken. Van trainingsverslagen tot wedstrijdrecaps — Tom weet het altijd boeiend te brengen. Zelf loopt hij het liefst op gevoel, zonder GPS-horloge, puur voor het plezier.",
-    favoriteDistance: "15 km",
+      "Bas is de stille kracht van het team. Terwijl anderen het tempo opjagen, houdt Bas geduldig vol op zijn eigen ritme. En dat ritme is verrassend effectief: hij heeft de beste uithoudingsvermogen van het hele team. Werkzaam als timmerman in Westkapelle, combineert hij zijn fysieke werk met zijn hardlooptraining. Hij traint het liefst vroeg in de ochtend, als de rest van Walcheren nog slaapt en de dijken helemaal van hem zijn.",
+    favoriteDistance: "Marathon",
     bestAchievement:
-      "Het opbouwen van een betrokken online community van meer dan 2.000 volgers voor het team.",
+      "De Kustmarathon Zeeland uitgelopen in 3:28:14 — zijn eerste marathon ooit.",
     bestTeamMoment:
-      "Toen onze teamvideo over de Amsterdam Marathon viral ging en we honderden reacties kregen van geïnspireerde lopers.",
-    personalQuote: "Run first, post later.",
+      "Het teamweekend in Renesse, waar we een training van 25 km deden langs de hele kust en daarna met z'n allen mosselen gingen eten.",
+    personalQuote: "Wie langzaam begint, eindigt sterk.",
     whyRunning:
-      "Hardlopen is mijn creatieve uitlaatklep. Tijdens het lopen komen de beste ideeën. Het is ook een manier om verhalen te verzamelen — elke run is een nieuw verhaal waard.",
+      "Hardlopen is mijn ochtendmeditatie. Om 6 uur de deur uit, de dijk op, de zon zien opkomen boven de Westerschelde — dat is voor mij de mooiste start van de dag. Geen muziek, geen telefoon, gewoon ik en de weg.",
     funFacts: [
-      "Maakt altijd een selfie op de finishlijn",
-      "Heeft een podcast over hardlopen gestart (en weer gestopt)",
-      "Kent de Instagram-handle van elk teamlid uit zijn hoofd",
+      "Loopt altijd zonder muziek, 'want je mist de meeuwen'",
+      "Heeft na elke lange run exact dezelfde ontbijtroutine",
+      "Kan de exacte afstand schatten van elke route op Walcheren",
     ],
     stats: {
-      kmPerWeek: 40,
-      races: 18,
+      kmPerWeek: 60,
+      races: 14,
       prs: 5,
     },
   },
   {
-    id: "anna-de-groot",
-    name: "Anna de Groot",
-    role: "Hardloper & Mentor",
+    id: "sanne-de-jong",
+    name: "Sanne de Jong",
+    role: "Allrounder",
+    image: "/images/team/sanne-de-jong.jpg",
     shortBio:
-      "Ervaren marathonloopster die nieuwe teamleden begeleidt en inspireert om hun grenzen te verleggen.",
+      "Doet alles een beetje en alles best goed. Van 5 km tot trail — Sanne is overal voor in.",
     fullBio:
-      "Anna is een van de meest ervaren lopers van het team. Met meer dan 20 marathons op haar naam is ze een bron van kennis en inspiratie. Ze neemt graag de rol van mentor op zich en helpt nieuwe teamleden om hun eerste doelen te bereiken. Haar motto: geduld en consistentie winnen altijd. Anna gelooft dat hardlopen voor iedereen toegankelijk moet zijn, ongeacht niveau of achtergrond.",
-    favoriteDistance: "Marathon (42.195 km)",
+      "Sanne is het meest veelzijdige lid van het team. Vraag haar om een 5 km te lopen? Check. Een trailrun door de duinen? Check. Een estafette op het strand? Dubbelcheck. Ze houdt van variatie en weigert zich te specialiseren. 'Ik loop niet om records te breken, ik loop om alles uit te proberen,' zegt ze zelf. Naast het lopen is ze ook de sociale lijm van het team — ze regelt de borrels, de uitjes en de groepsapp.",
+    favoriteDistance: "15 km",
     bestAchievement:
-      "Deelname aan de Boston Marathon, een droom die uitkwam na jaren van kwalificatiepogingen.",
+      "Vier verschillende wedstrijden gelopen in één maand en bij allemaal met een glimlach gefinisht.",
     bestTeamMoment:
-      "Het moment dat een nieuw teamlid dat ze had begeleid, haar eerste marathon uitliep en in tranen van geluk over de finish kwam.",
+      "De kerstloop door Westkapelle die ze zelf had georganiseerd, compleet met glühwein bij de toren.",
     personalQuote:
-      "De finish is niet het einde, het is het begin van je volgende avontuur.",
+      "Waarom kiezen als je alles kunt doen?",
     whyRunning:
-      "Hardlopen heeft me geleerd wie ik werkelijk ben. In die uren op de weg ontdek je je grenzen, je kracht en je kwetsbaarheid. Dat deel ik graag met anderen.",
+      "Hardlopen is voor mij het ultieme avontuur in je eigen achtertuin. Elke keer als ik een andere route neem, zie ik weer iets nieuws. En ik vind het gewoon ontzettend leuk om met dit team te lopen — het zijn niet alleen teamgenoten, het zijn vrienden.",
     funFacts: [
-      "Heeft in elk seizoen een andere favoriete route",
-      "Eet altijd pasta de avond voor een wedstrijd",
-      "Kan tijdens het lopen perfect een gesprek voeren",
+      "Heeft de teamgroepsapp gemaakt en beheert die met ijzeren hand",
+      "Plant elk jaar een verrassingsactiviteit voor het team",
+      "Heeft ooit per ongeluk een halve marathon gelopen terwijl ze dacht dat het 10 km was",
     ],
     stats: {
-      kmPerWeek: 70,
-      races: 42,
-      prs: 15,
+      kmPerWeek: 35,
+      races: 20,
+      prs: 8,
     },
   },
   {
-    id: "daan-visser",
-    name: "Daan Visser",
-    role: "Hardloper & Materiaalman",
+    id: "jesse-klaassen",
+    name: "Jesse Klaassen",
+    role: "Sprinter",
+    image: "/images/team/jesse-klaassen.jpg",
     shortBio:
-      "Technisch onderlegd teamlid dat alles weet over hardloopschoenen, kleding en gadgets.",
+      "De jongste van het team. Snel, enthousiast en altijd in voor een sprint op het einde.",
     fullBio:
-      "Daan is de go-to persoon als het gaat om hardloopmateriaal. Van schoenen tot horloges, van compressiekousen tot drinkgordels — Daan heeft het getest en beoordeeld. Naast zijn materiaalkeunis is hij een solide hardloper die het liefst op tempo traint. Hij gelooft dat de juiste uitrusting het verschil kan maken tussen een goede en een geweldige run.",
-    favoriteDistance: "Halve marathon (21.1 km)",
+      "Jesse is pas 22 en de nieuwste aanwinst van het EMTÉ Running Team. Hij brengt jeugdig enthousiasme, ongebreidelde energie en een gezonde dosis competitiedrang mee. Hoewel hij nog relatief kort hardloopt, heeft hij al laten zien dat hij talent heeft — vooral op de kortere afstanden. Jesse studeert in Vlissingen en traint vaak langs de boulevard en de duinen rond Westkapelle. Hij is altijd de eerste die 'ja' zegt tegen een nieuw evenement.",
+    favoriteDistance: "5 km",
     bestAchievement:
-      "Persoonlijk record op de halve marathon: 1:24:11, gelopen in perfecte omstandigheden tijdens de Halve van Den Haag.",
+      "Zijn eerste 5 km onder de 19 minuten, gelopen tijdens de Boulevard Run in Vlissingen.",
     bestTeamMoment:
-      "Het organiseren van onze eerste materiaaltestdag, waar het hele team nieuwe schoenen en kleding kon uitproberen.",
-    personalQuote: "Het juiste materiaal maakt de loper.",
+      "De teamfoto bij de finish van de 65 van Walcheren — dat was het moment dat hij echt voelde dat hij bij het team hoorde.",
+    personalQuote: "Last maar niet least — usually niet last.",
     whyRunning:
-      "Hardlopen is pure eenvoud. Je hebt niet meer nodig dan een paar goede schoenen en de deur uit. Maar als techneut geniet ik er ook van om het maximale uit elke training te halen met de juiste tools.",
+      "Eerlijk? Het begon omdat Luuk me uitdaagde. Maar nu kan ik niet meer stoppen. Er is iets verslavends aan jezelf steeds sneller zien worden. En de mensen in dit team maken het extra leuk — het voelt als een sportfamilie.",
     funFacts: [
-      "Bezit meer dan 15 paar hardloopschoenen",
-      "Test elke GPS-watch die op de markt komt",
-      "Houdt een spreadsheet bij met slijtage van zijn schoenen",
-    ],
-    stats: {
-      kmPerWeek: 55,
-      races: 25,
-      prs: 10,
-    },
-  },
-  {
-    id: "emma-klein",
-    name: "Emma Klein",
-    role: "Hardloper & Voedingscoach",
-    shortBio:
-      "Diëtiste van beroep die het team helpt met voedingsadvies voor optimale prestaties.",
-    fullBio:
-      "Emma brengt als diëtiste een unieke expertise mee naar het team. Ze helpt teamleden met voedingsplannen, hydratatie-strategieën en herstelvoeding. Zelf is ze een enthousiaste hardloopster die het liefst in de vroege ochtend traint. Emma gelooft dat voeding en sport hand in hand gaan en dat de juiste brandstof het verschil maakt.",
-    favoriteDistance: "10 km",
-    bestAchievement:
-      "Het ontwikkelen van een voedingsprogramma waarmee drie teamleden hun PR verbeterden in één seizoen.",
-    bestTeamMoment:
-      "Ons gezamenlijke kookavondje waar iedereen een gezond hardlooprecept deelde.",
-    personalQuote: "Je bent wat je eet — zeker als hardloper.",
-    whyRunning:
-      "Hardlopen is voor mij de perfecte combinatie van fysieke uitdaging en mentale rust. Het is ook een prachtig laboratorium om te zien hoe voeding direct invloed heeft op prestaties.",
-    funFacts: [
-      "Maakt smoothies voor het hele team na trainingen",
-      "Heeft een eigen kookboek voor sporters geschreven",
-      "Staat altijd als eerste bij de ontbijtbuffet",
+      "Heeft altijd twee energiegels in zijn broekzak 'voor noodgevallen'",
+      "Is de enige in het team die TikTok-content maakt van de trainingen",
+      "Kan een sprint van 200 meter inzetten na 60 km hardlopen (beweert hij)",
     ],
     stats: {
       kmPerWeek: 40,
-      races: 20,
-      prs: 8,
+      races: 10,
+      prs: 6,
+    },
+  },
+  {
+    id: "eva-pieters",
+    name: "Eva Pieters",
+    role: "Trailrunner",
+    image: "/images/team/eva-pieters.jpg",
+    shortBio:
+      "Geeft de voorkeur aan onverharde paden, duinen en modder. De avonturier van het team.",
+    fullBio:
+      "Eva ontdekte trailrunning tijdens een vakantie in de Ardennen en was meteen verkocht. Terug in Zeeland ging ze op zoek naar vergelijkbare uitdagingen en vond die in de duinen rond Westkapelle en het achterland van Walcheren. Ze brengt een avontuurlijke spirit mee die het team inspireert om ook eens van het asfalt af te stappen. Als verpleegkundige in het Admiraal De Ruyter Ziekenhuis weet ze bovendien alles over blessurepreventie en herstel.",
+    favoriteDistance: "Trail 25 km",
+    bestAchievement:
+      "De Duin Ultra Trail (30 km door de Zeeuwse duinen) uitgelopen als derde vrouw.",
+    bestTeamMoment:
+      "De teamtraining door de duinen bij Domburg waar het begon te regenen en iedereen doorweekt maar lachend de finish haalde.",
+    personalQuote:
+      "De mooiste routes hebben geen asfalt.",
+    whyRunning:
+      "Hardlopen in de natuur is voor mij het perfecte tegenwicht voor mijn werk in het ziekenhuis. De duinen in, de wind voelen, je voeten in het zand — dat is mijn manier om op te laden. En met dit team erbij wordt elke trail een feestje.",
+    funFacts: [
+      "Heeft altijd een EHBO-kit in haar sporttas (beroepsdeformatie)",
+      "Verzamelt finisher-medailles en hangt ze aan de Toren van Westkapelle (in gedachten)",
+      "Kent elk duinpad op Walcheren uit haar hoofd",
+    ],
+    stats: {
+      kmPerWeek: 45,
+      races: 16,
+      prs: 6,
     },
   },
 ];

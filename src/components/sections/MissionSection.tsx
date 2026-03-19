@@ -1,6 +1,7 @@
 "use client";
 
 import AnimatedSection from "@/components/ui/AnimatedSection";
+import WestkapelleTower from "@/components/ui/WestkapelleTower";
 
 export default function MissionSection() {
   return (
@@ -8,6 +9,11 @@ export default function MissionSection() {
       {/* Decorative elements */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-emte-green-light/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
       <div className="absolute bottom-0 left-0 w-72 h-72 bg-emte-yellow/5 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+
+      {/* Tower silhouette - subtle background element */}
+      <div className="absolute left-1/2 bottom-0 -translate-x-1/2 opacity-[0.03] pointer-events-none">
+        <WestkapelleTower height={500} color="white" />
+      </div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
         <AnimatedSection>
@@ -25,11 +31,13 @@ export default function MissionSection() {
 
         <AnimatedSection delay={0.3}>
           <p className="mt-8 text-lg text-white/70 leading-relaxed max-w-3xl mx-auto">
-            Het EMTÉ Running Team gelooft dat hardlopen meer is dan kilometers vreten.
-            Het gaat om de mensen naast je, het gevoel na de finish en de drive om steeds
-            een stukje beter te worden. Wij combineren serieuze sportambitie met een
-            teamcultuur waar iedereen welkom is — van de doorgewinterde marathonloper
-            tot de enthousiaste beginner die net ontdekt heeft dat hardlopen eigenlijk
+            Geworteld in Westkapelle, gevormd door de Zeeuwse wind en de
+            eindeloze dijken van Walcheren. Het EMTE Running Team gelooft dat
+            hardlopen meer is dan kilometers vreten. Het gaat om de mensen naast
+            je, het gevoel na de finish en de drive om steeds een stukje beter te
+            worden. Wij combineren serieuze sportambitie met een teamcultuur waar
+            iedereen welkom is — van de doorgewinterde marathonloper tot de
+            enthousiaste beginner die net ontdekt heeft dat hardlopen eigenlijk
             best leuk is (na de eerste twee kilometer).
           </p>
         </AnimatedSection>
@@ -46,8 +54,8 @@ export default function MissionSection() {
                 text: "Met serieuze trainingsschema's, goede begeleiding en de juiste sponsoren.",
               },
               {
-                title: "Verbindend",
-                text: "We bouwen niet alleen aan snelle tijden, maar ook aan sterke vriendschappen.",
+                title: "Zeeuws karakter",
+                text: "Nuchter, vastberaden en altijd door — net als de Zeeuwse kustwind die ons elke training sterker maakt.",
               },
             ].map((item) => (
               <div

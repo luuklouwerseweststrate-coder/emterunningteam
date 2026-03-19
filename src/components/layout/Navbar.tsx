@@ -44,18 +44,21 @@ export default function Navbar() {
     >
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
-        <Link href="/" className="flex items-center gap-1 group">
-          <span className="text-xl font-extrabold tracking-tight">
-            <span className="text-emte-green">EMTE</span>
-            <span className="text-emte-yellow">.</span>
-          </span>
-          <span
-            className={`text-sm font-semibold tracking-wide transition-colors ${
-              scrolled ? "text-emte-gray-700" : "text-emte-gray-600"
-            } group-hover:text-emte-green`}
-          >
-            Running Team
-          </span>
+        <Link href="/" className="flex items-center group">
+          <div className="flex flex-col items-center leading-none">
+            <span className="relative px-2.5 py-0.5 rounded-md bg-emte-yellow">
+              <span className="text-lg font-extrabold tracking-tight text-emte-green">
+                EMTE
+              </span>
+            </span>
+            <span
+              className={`mt-0.5 text-[10px] font-bold tracking-[0.2em] uppercase transition-colors ${
+                scrolled ? "text-emte-gray-700" : "text-white/80"
+              } group-hover:text-emte-green`}
+            >
+              Running Team
+            </span>
+          </div>
         </Link>
 
         {/* Desktop nav */}

@@ -5,7 +5,7 @@ import StatCard from "@/components/ui/StatCard";
 
 const stats = [
   {
-    value: "24",
+    value: "6",
     label: "Teamleden",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import WestkapelleTower from "@/components/ui/WestkapelleTower";
 
 const navLinks = [
   { href: "/", label: "Home" },
@@ -19,11 +20,16 @@ export default function Footer() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-emte-green-dark text-white">
+    <footer className="bg-emte-green-dark text-white relative overflow-hidden">
       {/* Yellow accent bar */}
       <div className="h-1 bg-gradient-to-r from-emte-yellow via-emte-yellow-light to-emte-yellow" />
 
-      <div className="mx-auto max-w-7xl px-6 py-16">
+      {/* Tower silhouette - decorative */}
+      <div className="absolute right-8 bottom-0 opacity-[0.04] pointer-events-none">
+        <WestkapelleTower height={320} color="white" />
+      </div>
+
+      <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">
         {/* Branding */}
         <div className="mb-12">
           <span className="text-2xl font-extrabold tracking-tight">
@@ -46,7 +52,8 @@ export default function Footer() {
               Over Ons
             </h3>
             <p className="text-sm leading-relaxed text-white/70">
-              EMTE Running Team is een hardloopteam dat staat voor passie,
+              EMTE Running Team is een hardloopteam uit Westkapelle, Zeeland.
+              Met de Zeeuwse kust als ons trainingsgebied staan we voor passie,
               doorzettingsvermogen en plezier. Samen trainen we voor de mooiste
               wedstrijden van Nederland.
             </p>
@@ -80,8 +87,8 @@ export default function Footer() {
               <li>info@emterunningteam.nl</li>
               <li>+31 6 12345678</li>
               <li>
-                Sportlaan 1<br />
-                1234 AB Amsterdam
+                Westkapelle<br />
+                Zeeland, Nederland
               </li>
             </ul>
           </div>
@@ -114,7 +121,7 @@ export default function Footer() {
             &copy; {year} EMTE Running Team. Alle rechten voorbehouden.
           </p>
           <p className="text-xs text-white/30">
-            Met trots gebouwd in Nederland
+            Met trots gebouwd in Westkapelle, Zeeland
           </p>
         </div>
       </div>
