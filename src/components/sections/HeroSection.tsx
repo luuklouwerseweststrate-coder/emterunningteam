@@ -29,8 +29,8 @@ export default function HeroSection() {
           {/* Left side - Text content */}
           <div className="relative flex-1 text-center lg:text-left">
             {/* Tower silhouette behind text */}
-            <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none hidden lg:block">
-              <WestkapelleTower height={500} color="white" />
+            <div className="absolute right-0 top-0 bottom-0 flex items-center opacity-10 pointer-events-none hidden lg:block">
+              <WestkapelleTower height={420} color="white" />
             </div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
