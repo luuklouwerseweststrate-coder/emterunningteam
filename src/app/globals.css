@@ -1,9 +1,9 @@
 @import "tailwindcss";
 
 @theme {
-  --color-emte-green: #1a5632;
-  --color-emte-green-light: #237a47;
-  --color-emte-green-dark: #0f3d22;
+  --color-emte-green: #1e3a5f;
+  --color-emte-green-light: #2a5080;
+  --color-emte-green-dark: #0f2440;
   --color-emte-yellow: #f5c518;
   --color-emte-yellow-light: #fad550;
   --color-emte-yellow-dark: #d4a800;

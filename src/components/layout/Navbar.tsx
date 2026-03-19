@@ -43,15 +43,15 @@ export default function Navbar() {
           : "bg-transparent"
       }`}
     >
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-2">
         {/* Logo */}
         <Link href="/" className="flex items-center group">
           <Image
             src="/images/emte.runningteam.logo-removebg-preview.png"
             alt="EMTE Running Team"
-            width={280}
-            height={120}
-            className="h-16 w-auto sm:h-20"
+            width={600}
+            height={260}
+            className="h-28 w-auto sm:h-36"
             priority
           />
         </Link>

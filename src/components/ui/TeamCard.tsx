@@ -38,13 +38,13 @@ export default function TeamCard({
         className="group cursor-pointer overflow-hidden rounded-2xl bg-white shadow-md transition-shadow duration-300 hover:shadow-xl"
       >
         {/* Image / Placeholder */}
-        <div className="relative flex h-64 items-center justify-center bg-emte-gray-100">
+        <div className="relative flex h-80 items-center justify-center bg-emte-gray-100">
           {image ? (
             <Image
               src={image}
               alt={name}
               fill
-              className="object-cover transition-transform duration-500 group-hover:scale-105"
+              className="object-cover object-top transition-transform duration-500 group-hover:scale-105"
             />
           ) : (
             <div className="flex flex-col items-center gap-2">
