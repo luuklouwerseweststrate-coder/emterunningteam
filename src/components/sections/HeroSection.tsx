@@ -24,18 +24,14 @@ export default function HeroSection() {
         }}
       />
 
-      {/* Tower silhouette - subtle background element */}
-      <div className="absolute right-12 bottom-0 opacity-5 pointer-events-none hidden lg:block">
-        <WestkapelleTower height={600} color="white" />
-      </div>
-      <div className="absolute left-8 bottom-0 opacity-[0.03] pointer-events-none hidden xl:block">
-        <WestkapelleTower height={400} color="white" />
-      </div>
-
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
         <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16">
           {/* Left side - Text content */}
-          <div className="flex-1 text-center lg:text-left">
+          <div className="relative flex-1 text-center lg:text-left">
+            {/* Tower silhouette behind text */}
+            <div className="absolute right-0 bottom-0 opacity-10 pointer-events-none hidden lg:block">
+              <WestkapelleTower height={500} color="white" />
+            </div>
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
