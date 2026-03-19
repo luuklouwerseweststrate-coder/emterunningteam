@@ -21,9 +21,9 @@ export const sponsors: Sponsor[] = [
     name: 'Mini Camping Boogaard',
     logo: '/images/Mini-camping-boogaard-logo.png',
     website: '#',
-    tier: 'hoofdpartner',
+    tier: 'partner',
     description:
-      'Mini Camping Boogaard uit Westkapelle is onze trotse hoofdsponsor. Een gezellige camping midden op Walcheren die het team vanaf het begin steunt.',
+      'Mini Camping Boogaard uit Westkapelle steunt het team vanaf het begin. Een gezellige camping midden op Walcheren.',
   },
   {
     id: 'hoveniersbedrijf-minderhoud',

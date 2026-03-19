@@ -1,14 +1,11 @@
 'use client';
 
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import SectionHeading from '@/components/ui/SectionHeading';
 import Button from '@/components/ui/Button';
 import { sponsors, sponsorPackages } from '@/data/sponsors';
-
-const hoofdpartners = sponsors.filter((s) => s.tier === 'hoofdpartner');
-const partners = sponsors.filter((s) => s.tier === 'partner');
-const supporters = sponsors.filter((s) => s.tier === 'supporter');
 
 const benefits = [
   {
@@ -138,19 +135,18 @@ export default function SponsorenPage() {
         </div>
       </section>
 
-      {/* Sponsor Tiers */}
+      {/* Onze Sponsoren */}
       <section className="bg-emte-gray-50 py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Hoofdpartners */}
           <AnimatedSection>
             <SectionHeading
-              title="Onze Hoofdpartners"
-              subtitle="De drijvende kracht achter het team"
+              title="Onze Sponsoren"
+              subtitle="De bedrijven die het EMTE Running Team mogelijk maken"
               centered
             />
           </AnimatedSection>
-          <div className="grid gap-8 md:grid-cols-2">
-            {hoofdpartners.map((sponsor, i) => (
+          <div className="grid gap-8 md:grid-cols-3">
+            {sponsors.map((sponsor, i) => (
               <AnimatedSection key={sponsor.id} delay={i * 0.15}>
                 <motion.a
                   href={sponsor.website}
@@ -160,104 +156,24 @@ export default function SponsorenPage() {
                   transition={{ duration: 0.3 }}
                   className="group block rounded-2xl bg-white p-8 shadow-md transition-shadow hover:shadow-xl"
                 >
-                  <div className="mb-6 flex items-center gap-4">
-                    <div className="flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-emte-green/10">
-                      <span className="text-2xl font-extrabold text-emte-green">
-                        {sponsor.name.charAt(0)}
-                      </span>
-                    </div>
-                    <div>
-                      <h3 className="text-xl font-bold text-emte-gray-900 group-hover:text-emte-green">
-                        {sponsor.name}
-                      </h3>
-                      <span className="inline-block rounded-full bg-emte-yellow/20 px-3 py-0.5 text-xs font-semibold text-emte-green-dark">
-                        Hoofdpartner
-                      </span>
-                    </div>
+                  <div className="mb-6 flex h-40 items-center justify-center rounded-xl bg-emte-gray-50 p-4">
+                    <Image
+                      src={sponsor.logo}
+                      alt={sponsor.name}
+                      width={280}
+                      height={160}
+                      className="h-full w-auto max-w-full object-contain"
+                    />
                   </div>
-                  <p className="text-sm leading-relaxed text-emte-gray-600">
+                  <h3 className="text-xl font-bold text-emte-gray-900 group-hover:text-emte-green">
+                    {sponsor.name}
+                  </h3>
+                  <p className="mt-2 text-sm leading-relaxed text-emte-gray-600">
                     {sponsor.description}
                   </p>
-                  <div className="mt-4 flex items-center gap-1 text-sm font-semibold text-emte-green opacity-0 transition-opacity group-hover:opacity-100">
-                    Bezoek website
-                    <svg className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
-                      <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-                    </svg>
-                  </div>
                 </motion.a>
               </AnimatedSection>
             ))}
-          </div>
-
-          {/* Partners */}
-          <div className="mt-20">
-            <AnimatedSection>
-              <SectionHeading
-                title="Partners"
-                subtitle="Waardevolle samenwerkingen die het verschil maken"
-                centered
-              />
-            </AnimatedSection>
-            <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-              {partners.map((sponsor, i) => (
-                <AnimatedSection key={sponsor.id} delay={i * 0.1}>
-                  <motion.a
-                    href={sponsor.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ y: -4 }}
-                    transition={{ duration: 0.3 }}
-                    className="group block rounded-2xl bg-white p-6 shadow-sm transition-shadow hover:shadow-lg"
-                  >
-                    <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-lg bg-emte-green/10">
-                      <span className="text-lg font-bold text-emte-green">
-                        {sponsor.name.charAt(0)}
-                      </span>
-                    </div>
-                    <h3 className="text-lg font-bold text-emte-gray-900 group-hover:text-emte-green">
-                      {sponsor.name}
-                    </h3>
-                    <p className="mt-2 line-clamp-3 text-sm text-emte-gray-600">
-                      {sponsor.description}
-                    </p>
-                  </motion.a>
-                </AnimatedSection>
-              ))}
-            </div>
-          </div>
-
-          {/* Supporters */}
-          <div className="mt-20">
-            <AnimatedSection>
-              <SectionHeading
-                title="Supporters"
-                subtitle="Elk beetje steun telt"
-                centered
-              />
-            </AnimatedSection>
-            <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
-              {supporters.map((sponsor, i) => (
-                <AnimatedSection key={sponsor.id} delay={i * 0.08}>
-                  <motion.a
-                    href={sponsor.website}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.03 }}
-                    transition={{ duration: 0.2 }}
-                    className="group flex flex-col items-center rounded-xl bg-white p-5 text-center shadow-sm transition-shadow hover:shadow-md"
-                  >
-                    <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-lg bg-emte-gray-100">
-                      <span className="text-sm font-bold text-emte-green">
-                        {sponsor.name.charAt(0)}
-                      </span>
-                    </div>
-                    <span className="text-sm font-semibold text-emte-gray-700 group-hover:text-emte-green">
-                      {sponsor.name}
-                    </span>
-                  </motion.a>
-                </AnimatedSection>
-              ))}
-            </div>
           </div>
         </div>
       </section>
