@@ -141,7 +141,7 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "De jongste van het team. Rent overdag, rode wijn 's avonds. Bewijst dat je allebei kunt combineren.",
     fullBio:
-      "Imara is pas 22 en de nieuwste aanwinst van het EMTE Running Team. Wat haar uniek maakt? Ze combineert haar liefde voor rode wijn met serieuze hardloopprestaties. Zaterdagavond een fles Merlot delen met vriendinnen, zondagochtend een PR lopen op de 5 km — voor Imara is dat geen tegenstelling, dat is lifestyle. Ze is de belichaming van de hybride atleet: jong, snel, en altijd in voor een goed glas na de training.",
+      "Imara is 24 en de nieuwste aanwinst van het EMTE Running Team. Wat haar uniek maakt? Ze combineert haar liefde voor rode wijn met serieuze hardloopprestaties. Zaterdagavond een fles Merlot delen met vriendinnen, zondagochtend een PR lopen op de 5 km — voor Imara is dat geen tegenstelling, dat is lifestyle. Ze is de belichaming van de hybride atleet: jong, snel, en altijd in voor een goed glas na de training.",
     favoriteDistance: "5 km",
     bestAchievement:
       "Haar eerste 5 km onder de 20 minuten, gelopen na een wijnproeverij de avond ervoor. Rode wijn als brandstof.",
