@@ -7,7 +7,7 @@ import WestkapelleTower from "@/components/ui/WestkapelleTower";
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center overflow-hidden bg-emte-green-dark pt-28 pb-16">
+    <section className="relative min-h-screen flex items-center overflow-hidden bg-emte-green-dark pt-44 sm:pt-48 pb-16">
       {/* Background pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-72 h-72 bg-emte-yellow rounded-full blur-3xl" />
