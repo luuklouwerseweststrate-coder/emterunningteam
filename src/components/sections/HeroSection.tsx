@@ -29,7 +29,7 @@ export default function HeroSection() {
           {/* Left side - Text content */}
           <div className="relative flex-1 text-center lg:text-left">
             {/* Tower silhouette behind text */}
-            <div className="absolute right-0 top-0 bottom-0 flex items-center opacity-10 pointer-events-none hidden lg:block">
+            <div className="absolute inset-0 flex items-center justify-center opacity-10 pointer-events-none lg:justify-end">
               <WestkapelleTower height={420} color="white" />
             </div>
             <motion.div
@@ -108,10 +108,6 @@ export default function HeroSection() {
               <div className="absolute -bottom-3 -right-3 bg-emte-yellow text-emte-green-dark px-4 py-2 rounded-xl font-bold text-sm shadow-lg">
                 65 van Walcheren
               </div>
-            </div>
-            {/* Tower below photo on mobile */}
-            <div className="mt-8 flex justify-center opacity-15 lg:hidden">
-              <WestkapelleTower height={200} color="white" />
             </div>
           </motion.div>
         </div>
