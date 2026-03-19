@@ -84,7 +84,7 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "Houdt van lange afstanden en lange avonden. De rust zelve — totdat de Jagermeister op tafel komt.",
     fullBio:
-      "Bart is de stille kracht van het team — tot de Jagermeister tevoorschijn komt. Dan verandert de rustige duurloper in de feestbeest van de avond. Maar hoe laat het ook wordt op zaterdag, zondag staat hij er weer. Om 6 uur de deur uit, de dijk op, de kater eraf lopen. Als timmerman in Westkapelle is hij fysiek al sterk, dus die extra kilometers na een stevig avondje zijn voor hem geen probleem.",
+      "Bart is de stille kracht van het team — tot de Jagermeister tevoorschijn komt. Dan verandert de rustige duurloper in de feestbeest van de avond. Maar hoe laat het ook wordt op zaterdag, zondag staat hij er weer. Om 6 uur de deur uit, de dijk op, de kater eraf lopen. Die extra kilometers na een stevig avondje zijn voor hem geen probleem.",
     favoriteDistance: "Marathon",
     bestAchievement:
       "De Kustmarathon Zeeland uitgelopen in 3:28:14 — na een vrijdagavond die beter vergeten kan worden.",
@@ -169,7 +169,7 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "Trailrunner met een passie voor speciaalbier. Overdag door de duinen, 's avonds een tripel op het terras.",
     fullBio:
-      "Evi combineert trailrunning met speciaalbier alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een lokaal gebrouwen IPA op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert — zowel op de trail als bij de borrel. Als verpleegkundige én bierkenner weet ze precies welk speciaalbiertje past bij welke afstand. Wetenschap in dienst van de hybride atleet.",
+      "Evi combineert trailrunning met speciaalbier alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een lokaal gebrouwen IPA op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert — zowel op de trail als bij de borrel. Als bierkenner weet ze precies welk speciaalbiertje past bij welke afstand. Wetenschap in dienst van de hybride atleet.",
     favoriteDistance: "Trail 25 km",
     bestAchievement:
       "De Duin Ultra Trail (30 km) uitgelopen als derde vrouw, gevierd met een lokale tripel op het strand.",
