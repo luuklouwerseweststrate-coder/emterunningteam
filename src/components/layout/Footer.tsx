@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import WestkapelleTower from "@/components/ui/WestkapelleTower";
 
 const navLinks = [
@@ -32,13 +33,15 @@ export default function Footer() {
       <div className="relative z-10 mx-auto max-w-7xl px-6 py-16">
         {/* Branding */}
         <div className="mb-12">
-          <span className="text-2xl font-extrabold tracking-tight">
-            <span className="text-white">EMTE</span>
-            <span className="text-emte-yellow">.</span>
-            <span className="ml-1 text-lg font-semibold text-white/80">
-              Running Team
-            </span>
-          </span>
+          <Link href="/">
+            <Image
+              src="/images/emte.runningteam.logo.png"
+              alt="EMTE Running Team"
+              width={180}
+              height={80}
+              className="h-16 w-auto brightness-0 invert"
+            />
+          </Link>
           <p className="mt-2 text-sm italic text-white/50">
             Sneller dan de bezorgservice
           </p>

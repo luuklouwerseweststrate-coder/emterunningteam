@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -45,20 +46,14 @@ export default function Navbar() {
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         {/* Logo */}
         <Link href="/" className="flex items-center group">
-          <div className="flex flex-col items-center leading-none">
-            <span className="relative px-2.5 py-0.5 rounded-md bg-emte-yellow">
-              <span className="text-lg font-extrabold tracking-tight text-emte-green">
-                EMTE
-              </span>
-            </span>
-            <span
-              className={`mt-0.5 text-[10px] font-bold tracking-[0.2em] uppercase transition-colors ${
-                scrolled ? "text-emte-gray-700" : "text-white/80"
-              } group-hover:text-emte-green`}
-            >
-              Running Team
-            </span>
-          </div>
+          <Image
+            src="/images/emte.runningteam.logo.png"
+            alt="EMTE Running Team"
+            width={140}
+            height={60}
+            className="h-10 w-auto sm:h-12"
+            priority
+          />
         </Link>
 
         {/* Desktop nav */}
