@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emte-green: #1a5632;
+  --color-emte-green-light: #237a47;
+  --color-emte-green-dark: #0f3d22;
+  --color-emte-yellow: #f5c518;
+  --color-emte-yellow-light: #fad550;
+  --color-emte-yellow-dark: #d4a800;
+  --color-emte-cream: #fafaf5;
+  --color-emte-gray-50: #f8f9fa;
+  --color-emte-gray-100: #f1f3f5;
+  --color-emte-gray-200: #e9ecef;
+  --color-emte-gray-300: #dee2e6;
+  --color-emte-gray-400: #ced4da;
+  --color-emte-gray-500: #adb5bd;
+  --color-emte-gray-600: #6c757d;
+  --color-emte-gray-700: #495057;
+  --color-emte-gray-800: #343a40;
+  --color-emte-gray-900: #212529;
+
+  --font-heading: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: var(--color-emte-gray-900);
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    font-weight: 700;
+  }
+}
