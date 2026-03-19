@@ -76,15 +76,15 @@ const benefits = [
 const testimonials = [
   {
     quote:
-      'Het sponsoren van het EMTE Running Team heeft ons merk op een heel natuurlijke manier verbonden met gezondheid, doorzettingsvermogen en gemeenschap. De samenwerking voelt als een echt partnerschap.',
-    author: 'Mark de Vries',
-    company: 'Van den Berg Fysiotherapie',
+      'Het sponsoren van het EMTE Running Team voelt als een echt partnerschap. De gasten op onze camping vragen er regelmatig naar — het leeft echt in de gemeenschap.',
+    author: 'Familie Boogaard',
+    company: 'Mini Camping Boogaard',
   },
   {
     quote:
-      'De zichtbaarheid die we krijgen bij evenementen door heel Zeeland is fantastisch. Van de Kustmarathon tot lokale lopen op Walcheren — maar wat het echt bijzonder maakt, zijn de mensen. Een geweldig team om mee samen te werken.',
-    author: 'Linda Bakker',
-    company: 'Bakker Sport Middelburg',
+      'De zichtbaarheid die we krijgen bij evenementen door heel Zeeland is fantastisch. Van de Kustmarathon tot lokale lopen op Walcheren — een geweldig team om mee samen te werken.',
+    author: 'Bombaai Team',
+    company: 'Bombaai Strandbar',
   },
 ];
 

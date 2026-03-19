@@ -17,81 +17,31 @@ export interface SponsorPackage {
 
 export const sponsors: Sponsor[] = [
   {
-    id: 'emte-supermarkten',
-    name: 'EMTE Supermarkten',
-    logo: '/images/sponsors/emte.png',
-    website: 'https://www.emte.nl',
+    id: 'mini-camping-boogaard',
+    name: 'Mini Camping Boogaard',
+    logo: '/images/Mini-camping-boogaard-logo.png',
+    website: '#',
     tier: 'hoofdpartner',
     description:
-      'Als naamgevende hoofdpartner ondersteunt EMTE Supermarkten het team met alles wat nodig is. Van sportvoeding tot wedstrijdkleding — EMTE staat altijd achter ons.',
+      'Mini Camping Boogaard uit Westkapelle is onze trotse hoofdsponsor. Een gezellige camping midden op Walcheren die het team vanaf het begin steunt.',
   },
   {
-    id: 'van-den-berg-fysiotherapie',
-    name: 'Van den Berg Fysiotherapie',
-    logo: '/images/sponsors/vandenberg.png',
-    website: 'https://www.vandenbergfysio.nl',
-    tier: 'hoofdpartner',
-    description:
-      'Blessurevrij hardlopen begint bij goede begeleiding. Van den Berg Fysiotherapie zorgt ervoor dat onze lopers in topvorm blijven.',
-  },
-  {
-    id: 'breda-sport',
-    name: 'Breda Sport',
-    logo: '/images/sponsors/bredasport.png',
-    website: 'https://www.bredasport.nl',
+    id: 'hoveniersbedrijf-minderhoud',
+    name: 'Hoveniersbedrijf Minderhoud',
+    logo: '/images/hoveniers-bedrijf-minderhoud-logo.png',
+    website: '#',
     tier: 'partner',
     description:
-      'De beste hardloopschoenen en uitrusting vind je bij Breda Sport. Onze vaste leverancier voor alles wat je nodig hebt.',
+      'Hoveniersbedrijf Minderhoud zorgt voor de mooiste tuinen in Zeeland — en voor de steun die ons team nodig heeft om te blijven groeien.',
   },
   {
-    id: 'de-running-coach',
-    name: 'De Running Coach',
-    logo: '/images/sponsors/runningcoach.png',
-    website: 'https://www.derunningcoach.nl',
+    id: 'bombaai-strandbar',
+    name: 'Bombaai Strandbar',
+    logo: '/images/bombaai-logo.jpg',
+    website: '#',
     tier: 'partner',
     description:
-      'Professionele trainingsschema\'s en persoonlijke coaching. De Running Coach helpt onze leden hun doelen te bereiken.',
-  },
-  {
-    id: 'bakkerij-jansen',
-    name: 'Bakkerij Jansen',
-    logo: '/images/sponsors/jansen.png',
-    website: 'https://www.bakkerijjansen.nl',
-    tier: 'partner',
-    description:
-      'Na elke training en wedstrijd staat Bakkerij Jansen klaar met vers gebak en brood. De energie die we nodig hebben!',
-  },
-  {
-    id: 'drukkerij-de-haan',
-    name: 'Drukkerij De Haan',
-    logo: '/images/sponsors/dehaan.png',
-    website: 'https://www.drukkerijdehaan.nl',
-    tier: 'supporter',
-    description: 'Al onze flyers, banners en promotiematerialen komen van Drukkerij De Haan.',
-  },
-  {
-    id: 'cafe-de-beyerd',
-    name: 'Café De Beyerd',
-    logo: '/images/sponsors/debeyerd.png',
-    website: 'https://www.debeyerd.nl',
-    tier: 'supporter',
-    description: 'Ons vaste stamcafé voor de derde helft. Altijd een warm welkom na de training.',
-  },
-  {
-    id: 'autobedrijf-willems',
-    name: 'Autobedrijf Willems',
-    logo: '/images/sponsors/willems.png',
-    website: 'https://www.autobedrijfwillems.nl',
-    tier: 'supporter',
-    description: 'Betrouwbaar vervoer naar wedstrijden in heel Nederland, mede mogelijk gemaakt door Autobedrijf Willems.',
-  },
-  {
-    id: 'accountancy-breda',
-    name: 'Vis Accountancy',
-    logo: '/images/sponsors/vis.png',
-    website: 'https://www.visaccountancy.nl',
-    tier: 'supporter',
-    description: 'Onze financiën op orde dankzij de expertise van Vis Accountancy.',
+      'Bombaai Strandbar is dé plek voor onze derde helft. Na een training langs de kust is er geen betere bestemming dan Bombaai.',
   },
 ];
 

@@ -47,11 +47,11 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center group">
           <Image
-            src="/images/emte.runningteam.logo.png"
+            src="/images/emte.runningteam.logo-removebg-preview.png"
             alt="EMTE Running Team"
-            width={140}
-            height={60}
-            className="h-10 w-auto sm:h-12"
+            width={280}
+            height={120}
+            className="h-16 w-auto sm:h-20"
             priority
           />
         </Link>

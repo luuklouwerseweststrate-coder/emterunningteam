@@ -35,11 +35,11 @@ export default function Footer() {
         <div className="mb-12">
           <Link href="/">
             <Image
-              src="/images/emte.runningteam.logo.png"
+              src="/images/emte.runningteam.logo-removebg-preview.png"
               alt="EMTE Running Team"
-              width={180}
-              height={80}
-              className="h-16 w-auto brightness-0 invert"
+              width={320}
+              height={140}
+              className="h-24 w-auto"
             />
           </Link>
           <p className="mt-2 text-sm italic text-white/50">
