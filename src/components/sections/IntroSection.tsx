@@ -9,42 +9,42 @@ export default function IntroSection() {
       <div className="max-w-4xl mx-auto px-6 text-center">
         <AnimatedSection>
           <SectionHeading
-            title="Meer dan een hardloopteam"
+            title="Hybride Atleten"
             subtitle="Wij zijn het EMTE Running Team"
           />
         </AnimatedSection>
         <AnimatedSection delay={0.2}>
           <p className="text-lg text-emte-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Wat begon als een groepje hardlopers uit Westkapelle dat samen de
-            dijken van Walcheren onveilig maakte, is uitgegroeid tot een
-            ambitieus running team met een duidelijke missie: laten zien dat
-            hardlopen leuker is als je het samen doet. Met de Zeeuwse kust als
-            ons decor en de wind als vaste trainingspartner — of je nu traint
-            voor je eerste 5 kilometer of je voorbereidt op een marathon — bij
-            ons vind je de juiste energie, het juiste gezelschap en af en toe een
-            goed excuus om taart te eten na de finish.
+            Wat begon als een dronken weddenschap in een Westkapels cafe is
+            uitgegroeid tot een team van hybride atleten met een duidelijke
+            filosofie: je kunt zaterdagavond in de kroeg staan en zondagochtend
+            een PR lopen. Wij bewijzen dat bier en hardlopen prima samengaan.
+            Met de Zeeuwse kust als ons decor en de kater als vaste
+            trainingspartner — bij ons vind je de juiste energie, het juiste
+            gezelschap en altijd een goed excuus om na de finish een biertje
+            te pakken.
           </p>
         </AnimatedSection>
         <AnimatedSection delay={0.4}>
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Ambitie",
+                title: "Hybride Lifestyle",
                 description:
-                  "We leggen de lat hoog, maar houden de sfeer laag. Presteren doe je samen.",
-                icon: "\uD83C\uDFAF",
+                  "Zaterdagavond de kroeg, zondagochtend de dijk. Wij combineren feesten met presteren.",
+                icon: "\uD83C\uDF7B",
               },
               {
                 title: "Zeeuws DNA",
                 description:
-                  "Nuchter, vastberaden en altijd klaar voor een rondje Walcheren. Hardlopen met kustkarakter.",
+                  "Nuchter, vastberaden en altijd klaar voor een rondje Walcheren — en een rondje aan de bar.",
                 icon: "\uD83C\uDF0A",
               },
               {
-                title: "Plezier",
+                title: "Bier & Kilometers",
                 description:
-                  "Serieus trainen, maar nooit vergeten waarom we het doen: omdat het gewoon leuk is.",
-                icon: "\u26A1",
+                  "Elke kilometer die je loopt is een biertje dat je mag drinken. Simpele wiskunde.",
+                icon: "\uD83C\uDFC3",
               },
             ].map((item) => (
               <div

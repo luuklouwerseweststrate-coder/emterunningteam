@@ -4,10 +4,10 @@ import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 
 export const metadata: Metadata = {
-  title: "EMTÉ Running Team | Hardlopen met Ambitie",
+  title: "EMTE Running Team | Hybride Atleten uit Westkapelle",
   description:
-    "Het EMTÉ Running Team is een ambitieus hardloopteam met een professionele aanpak en een sterk teamgevoel. Ontdek ons team, evenementen en sponsormogelijkheden.",
-  keywords: ["running team", "hardlopen", "EMTÉ", "evenementen", "sponsoring"],
+    "Zaterdag in de kroeg, zondag in de hardloopschoenen. Het EMTE Running Team bestaat uit hybride atleten die bier en kilometers combineren. Uit Westkapelle, Zeeland.",
+  keywords: ["running team", "hardlopen", "EMTE", "hybride atleten", "Westkapelle"],
 };
 
 export default function RootLayout({

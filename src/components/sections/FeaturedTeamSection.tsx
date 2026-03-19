@@ -13,7 +13,7 @@ export default function FeaturedTeamSection() {
         <AnimatedSection>
           <SectionHeading
             title="Ons Team"
-            subtitle="Zes hardlopers uit Westkapelle — samen sterker dan de kustwind"
+            subtitle="Zes hybride atleten uit Westkapelle — zaterdag in de kroeg, zondag op de dijk"
           />
         </AnimatedSection>
 

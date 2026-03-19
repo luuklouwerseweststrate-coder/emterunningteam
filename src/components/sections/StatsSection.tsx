@@ -32,7 +32,7 @@ const stats = [
     ),
   },
   {
-    value: "15",
+    value: "3",
     label: "Trotse sponsoren",
     icon: (
       <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>

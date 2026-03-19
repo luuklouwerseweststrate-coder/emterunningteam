@@ -105,9 +105,8 @@ export default function SponsorenPage() {
               </h1>
               <div className="mt-4 h-1.5 w-24 rounded-full bg-emte-yellow" />
               <p className="mt-6 max-w-2xl text-lg leading-relaxed text-emte-gray-200">
-                Het EMTE Running Team groeit dankzij de steun van onze partners.
-                Samen bouwen we aan een sterkere hardloopgemeenschap op Walcheren,
-                in Zeeland en daarbuiten.
+                Het EMTE Running Team draait op twee dingen: kilometers en sponsoren
+                die snappen dat hybride atleten de beste ambassadeurs zijn.
               </p>
             </div>
           </AnimatedSection>
@@ -120,15 +119,15 @@ export default function SponsorenPage() {
           <div className="mx-auto max-w-3xl text-center">
             <AnimatedSection>
               <h2 className="text-3xl font-bold text-emte-gray-900 sm:text-4xl">
-                Meer dan een logo op een shirt
+                Meer dan een logo op een bezweet shirt
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-600">
                 Sponsoring van het EMTE Running Team is een investering in
-                zichtbaarheid door heel Zeeland, lokale betrokkenheid op Walcheren
-                en een gezonde gemeenschap. Van de Kustmarathon tot dorpsfeesten
-                — uw merk is zichtbaar waar het ertoe doet. Onze partners zijn
-                geen nummers — ze maken deel uit van het team.
+                zichtbaarheid bij wedstrijden, op terrassen en in kroegen door heel
+                Zeeland. Uw merk is zichtbaar waar het ertoe doet — van de startlijn
+                tot de bar. Onze sponsors zijn geen nummers, ze zijn onderdeel van
+                het team.
               </p>
             </AnimatedSection>
           </div>
@@ -337,9 +336,9 @@ export default function SponsorenPage() {
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-200">
-                Wilt u uw merk verbinden aan sport, gezondheid en de Zeeuwse
-                gemeenschap? Wij vertellen u graag meer over de mogelijkheden.
-                Geen verplichtingen, wel een goed gesprek — het liefst met uitzicht op de kust.
+                Wilt u uw merk verbinden aan de leukste hybride atleten van
+                Zeeland? Wij vertellen u graag meer over de mogelijkheden. Geen
+                verplichtingen, wel een goed gesprek — het liefst met een biertje erbij.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button variant="secondary" size="lg" href="/contact">

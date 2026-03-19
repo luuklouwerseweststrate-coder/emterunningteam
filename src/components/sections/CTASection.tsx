@@ -23,15 +23,15 @@ export default function CTASection() {
         <AnimatedSection>
           <h2 className="text-3xl md:text-5xl font-extrabold text-white leading-tight">
             Klaar om mee te{" "}
-            <span className="text-emte-yellow">lopen?</span>
+            <span className="text-emte-yellow">doen?</span>
           </h2>
         </AnimatedSection>
 
         <AnimatedSection delay={0.2}>
           <p className="mt-6 text-lg text-white/70 leading-relaxed">
-            Of je nu wilt trainen, sponsoren of gewoon wilt komen kijken bij een
-            evenement — we horen graag van je. Het enige wat je nodig hebt is een
-            paar schoenen en een beetje lef.
+            Of je nu wilt meelopen, meedrinken of allebei — we horen graag
+            van je. Het enige wat je nodig hebt is een paar hardloopschoenen
+            en een gezonde dorst.
           </p>
         </AnimatedSection>
 

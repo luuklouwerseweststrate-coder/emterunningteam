@@ -67,8 +67,8 @@ export default function HeroSection() {
               transition={{ duration: 0.8, delay: 0.4, ease: "easeOut" }}
               className="mt-6 text-lg md:text-xl text-white/70 max-w-xl leading-relaxed"
             >
-              Vanuit Westkapelle de wereld in — of in ieder geval Walcheren rond.
-              Samen sneller, sterker en verder.
+              Zaterdag in de kroeg, zondag in de hardloopschoenen.
+              Hybride atleten uit Westkapelle.
             </motion.p>
 
             <motion.div

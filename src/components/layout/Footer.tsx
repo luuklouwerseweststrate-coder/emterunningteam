@@ -43,7 +43,7 @@ export default function Footer() {
             />
           </Link>
           <p className="mt-2 text-sm italic text-white/50">
-            Sneller dan de bezorgservice
+            Zaterdag in de kroeg, zondag in de hardloopschoenen
           </p>
         </div>
 
@@ -55,10 +55,9 @@ export default function Footer() {
               Over Ons
             </h3>
             <p className="text-sm leading-relaxed text-white/70">
-              EMTE Running Team is een hardloopteam uit Westkapelle, Zeeland.
-              Met de Zeeuwse kust als ons trainingsgebied staan we voor passie,
-              doorzettingsvermogen en plezier. Samen trainen we voor de mooiste
-              wedstrijden van Nederland.
+              EMTE Running Team is een groep hybride atleten uit Westkapelle.
+              Wij combineren zaterdagavonden in de kroeg met zondagochtend-duurlopen.
+              Bier en kilometers — dat is onze sport.
             </p>
           </div>
 

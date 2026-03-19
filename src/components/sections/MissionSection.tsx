@@ -24,21 +24,20 @@ export default function MissionSection() {
 
         <AnimatedSection delay={0.2}>
           <h2 className="text-3xl md:text-5xl font-extrabold leading-tight">
-            Samen sneller,{" "}
-            <span className="text-emte-yellow">samen sterker</span>
+            Zaterdag de kroeg,{" "}
+            <span className="text-emte-yellow">zondag de dijk</span>
           </h2>
         </AnimatedSection>
 
         <AnimatedSection delay={0.3}>
           <p className="mt-8 text-lg text-white/70 leading-relaxed max-w-3xl mx-auto">
-            Geworteld in Westkapelle, gevormd door de Zeeuwse wind en de
-            eindeloze dijken van Walcheren. Het EMTE Running Team gelooft dat
-            hardlopen meer is dan kilometers vreten. Het gaat om de mensen naast
-            je, het gevoel na de finish en de drive om steeds een stukje beter te
-            worden. Wij combineren serieuze sportambitie met een teamcultuur waar
-            iedereen welkom is — van de doorgewinterde marathonloper tot de
-            enthousiaste beginner die net ontdekt heeft dat hardlopen eigenlijk
-            best leuk is (na de eerste twee kilometer).
+            Geworteld in Westkapelle, gevormd door de Zeeuwse wind en
+            zaterdagavonden in het cafe. Het EMTE Running Team gelooft dat
+            hardlopen en bier drinken geen tegenstellingen zijn — het zijn twee
+            kanten van dezelfde medaille. Wij zijn hybride atleten: we lopen
+            PR's op zondagochtend met de kater van zaterdagavond. De finish
+            is pas compleet met een biertje in de hand. En de borrel is pas
+            compleet als je weet dat je morgen weer gaat lopen.
           </p>
         </AnimatedSection>
 
@@ -46,16 +45,16 @@ export default function MissionSection() {
           <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
-                title: "Toegankelijk",
-                text: "Iedereen kan meedoen, ongeacht niveau. Wij geloven in groei, niet in uitsluiting.",
+                title: "Geen Excuses",
+                text: "Kater? Geen excuus. Laat uit de kroeg? Geen excuus. Zondagochtend wordt er gelopen. Altijd.",
               },
               {
-                title: "Professioneel",
-                text: "Met serieuze trainingsschema's, goede begeleiding en de juiste sponsoren.",
+                title: "Balans",
+                text: "Elke kilometer die je loopt is een drankje dat je mag drinken. Wij noemen dat sportwetenschap.",
               },
               {
-                title: "Zeeuws karakter",
-                text: "Nuchter, vastberaden en altijd door — net als de Zeeuwse kustwind die ons elke training sterker maakt.",
+                title: "Zeeuws Karakter",
+                text: "Nuchter, vastberaden en altijd door — of het nou de dijk is of de derde ronde aan de bar.",
               },
             ].map((item) => (
               <div

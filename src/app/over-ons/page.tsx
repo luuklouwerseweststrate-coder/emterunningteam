@@ -7,39 +7,39 @@ import Button from '@/components/ui/Button';
 export const metadata: Metadata = {
   title: 'Over Ons | EMTE Running Team',
   description:
-    'Leer het EMTE Running Team kennen. Ontdek ons verhaal, onze cultuur en wat ons team zo bijzonder maakt.',
+    'Leer het EMTE Running Team kennen. Hybride atleten uit Westkapelle: zaterdag in de kroeg, zondag in de hardloopschoenen.',
 };
 
 const timeline = [
   {
     year: '2019',
-    title: 'Oprichting',
+    title: 'De Dronken Weddenschap',
     description:
-      'Een klein groepje collega\'s in Westkapelle begint samen te hardlopen langs de duinen. Wat begint als excuus om even weg te zijn van het bureau, groeit al snel uit tot een wekelijks ritueel met de Zeeuwse kust als decor.',
+      'Na te veel biertjes in een Westkapels cafe wedden een paar vrienden dat ze de 65 van Walcheren kunnen lopen. De volgende ochtend — met kater — staan ze er nog steeds achter. Het EMTE Running Team is geboren.',
   },
   {
     year: '2020',
-    title: 'Eerste Officieel Evenement',
+    title: 'Eerste Kater-Run',
     description:
-      'Ondanks corona weten we ons eerste officiële evenement te organiseren - een virtuele 10 km over de Walcherse dijk. De teamspirit blijkt sterker dan welk virus dan ook.',
+      'De traditie begint: zaterdagavond de kroeg, zondagochtend de dijk. Ondanks corona wordt de eerste officiele kater-run gelopen — een virtuele 10 km die begint en eindigt bij de koelkast.',
   },
   {
     year: '2022',
-    title: '10+ Leden & Officieel Tenue',
+    title: 'Officieel Tenue & Eerste Borrel-Sponsor',
     description:
-      'We breken door de dubbele cijfers heen en vieren dit met onze eerste officiële teamshirts. Groen met geel, uiteraard. Niet te missen op de startlijn.',
+      'De teamshirts worden onthuld op een borrel die drie dagen duurt. Het team groeit en de hybride atleet-filosofie verspreidt zich door Walcheren.',
   },
   {
     year: '2023',
-    title: 'Eerste Sponsorpartnership',
+    title: 'Eerste Sponsoren',
     description:
-      'Onze groei trekt de aandacht van onze eerste sponsor. Het team wordt professioneler, maar de gezelligheid blijft precies hetzelfde.',
+      'Lokale bedrijven herkennen de kracht van hybride atleten. De eerste sponsoren sluiten zich aan — ze snappen dat bier en kilometers prima samengaan.',
   },
   {
     year: '2024',
     title: 'Recordjaar',
     description:
-      'Met deelnames aan de 65 van Walcheren, de Kustmarathon Zeeland en een steeds groeiend team bewijzen we dat Zeeuwse nuchterheid en ambitie prima samengaan.',
+      'De 65 van Walcheren, de Kustmarathon en talloze kroegentochten. We bewijzen dat je een marathon kunt lopen op zondagochtend en zaterdagavond nog in de kroeg kunt staan.',
   },
 ];
 
@@ -50,9 +50,9 @@ const cultuurCards = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M18 18.72a9.094 9.094 0 0 0 3.741-.479 3 3 0 0 0-4.682-2.72m.94 3.198.001.031c0 .225-.012.447-.037.666A11.944 11.944 0 0 1 12 21c-2.17 0-4.207-.576-5.963-1.584A6.062 6.062 0 0 1 6 18.719m12 0a5.971 5.971 0 0 0-.941-3.197m0 0A5.995 5.995 0 0 0 12 12.75a5.995 5.995 0 0 0-5.058 2.772m0 0a3 3 0 0 0-4.681 2.72 8.986 8.986 0 0 0 3.74.477m.94-3.197a5.971 5.971 0 0 0-.94 3.197M15 6.75a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm6 3a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Zm-13.5 0a2.25 2.25 0 1 1-4.5 0 2.25 2.25 0 0 1 4.5 0Z" />
       </svg>
     ),
-    title: 'Inclusiviteit',
+    title: 'Iedereen Welkom',
     description:
-      'Of je nu net begint met hardlopen of al jarenlang kilometers vreet - bij ons is iedereen welkom. Geen minimum tempo, geen maximum ego.',
+      'Of je nou een bierveteraan bent of meer van de wijn — bij ons is iedereen welkom. Geen minimum tempo, geen maximum drankjes.',
   },
   {
     icon: (
@@ -61,9 +61,9 @@ const cultuurCards = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M12 18a3.75 3.75 0 0 0 .495-7.468 5.99 5.99 0 0 0-1.925 3.547 5.975 5.975 0 0 1-2.133-1.001A3.75 3.75 0 0 0 12 18Z" />
       </svg>
     ),
-    title: 'Ambitie',
+    title: 'Hybride Ambitie',
     description:
-      'Nuchter maar ambitieus — Zeeuws tot op het bot. We leggen de lat hoog, maar wel op een gezonde manier. PR\'s zijn fantastisch, maar niet ten koste van plezier of gezondheid.',
+      'We lopen PR\'s op zondagochtend met de kater van zaterdagavond. Dat is pas echte ambitie. Presteren en feesten gaan bij ons hand in hand.',
   },
   {
     icon: (
@@ -71,9 +71,9 @@ const cultuurCards = [
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 0 1-6.364 0M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0ZM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75Zm-.375 0h.008v.015h-.008V9.75Z" />
       </svg>
     ),
-    title: 'Plezier',
+    title: 'De Derde Helft',
     description:
-      'Hardlopen is serieus, maar wij niet altijd. Na de finish is er altijd tijd voor een biertje, een slecht grap en een verhaal dat steeds mooier wordt.',
+      'De finish is pas het begin. Daarna volgt het belangrijkste onderdeel: bier, slechte grappen en verhalen die steeds mooier worden.',
   },
   {
     icon: (
@@ -83,7 +83,7 @@ const cultuurCards = [
     ),
     title: 'Teamgevoel',
     description:
-      'Samen starten, samen finishen. We moedigen elkaar aan, delen trainingsschema\'s en vieren elke overwinning - groot of klein.',
+      'Samen lopen, samen drinken, samen de kater overleven. We moedigen elkaar aan — zowel bij kilometer 30 als bij rondje 10.',
   },
 ];
 
@@ -103,8 +103,8 @@ export default function OverOnsPage() {
             </h1>
             <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-emte-gray-200 sm:text-xl">
-              Meer dan een hardloopteam. Een verhaal van Westkapelse collega&apos;s die samen
-              kilometers langs de kust, herinneringen en af en toe een blaar delen.
+              Hybride atleten uit Westkapelle. Zaterdag in de kroeg, zondag in de
+              hardloopschoenen. Dit is ons verhaal.
             </p>
           </AnimatedSection>
         </div>
@@ -117,7 +117,7 @@ export default function OverOnsPage() {
             <AnimatedSection>
               <SectionHeading
                 title="Ons Verhaal"
-                subtitle="Van koffieautomaat naar startlijn"
+                subtitle="Van kroeg naar startlijn"
                 centered
               />
             </AnimatedSection>
@@ -140,28 +140,26 @@ export default function OverOnsPage() {
             <AnimatedSection delay={0.2}>
               <div className="space-y-6 text-lg leading-relaxed text-emte-gray-700">
                 <p>
-                  Het begon allemaal met een weddenschap bij de koffieautomaat in Westkapelle. In 2019
-                  daagde een collega een paar anderen uit om mee te doen aan een lokale 5
-                  km loop langs de Walcherse kust. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde laatste
-                  woorden. Drie weken later stonden vijf hijgende collega&apos;s aan de
-                  finish bij de vuurtoren, met rode koppen en een gevoel van euforie dat geen enkele
-                  vergadering ooit had opgeleverd.
+                  Het begon allemaal met een dronken weddenschap in een Westkapels cafe.
+                  In 2019 daagde iemand na zes biertjes de rest uit om de 65 van
+                  Walcheren te lopen. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde
+                  laatste woorden. De volgende ochtend — met een monumentale kater —
+                  stond iedereen er nog steeds achter. Dat zegt alles over dit team.
                 </p>
                 <p>
-                  Wat volgde was onverwacht. Die vijf werden er acht, dan twaalf, dan
-                  twintig. Het lunchpauze-rondje over de dijk werd een wekelijkse
-                  training langs de duinen en de kust. De WhatsApp-groep &quot;Even Rennen?&quot; groeide sneller dan
-                  welk Slack-kanaal dan ook. En ergens tussen de intervaltrainingen op het strand en de
-                  nabespreking bij de lokale kroeg in Westkapelle ontstond er iets bijzonders: het EMTE
-                  Running Team.
+                  Wat volgde was een traditie die tot op de dag van vandaag
+                  voortduurt: zaterdagavond de kroeg, zondagochtend de dijk. De
+                  WhatsApp-groep &quot;Kater Run?&quot; groeide sneller dan het bierverbruik.
+                  En ergens tussen de trainingen op de dijk en de biertjes op het
+                  terras ontstond er iets bijzonders: een team van hybride atleten
+                  die bewijzen dat bier en kilometers prima samengaan.
                 </p>
                 <p>
-                  Vandaag de dag zijn we een hecht team van hardlopers met uiteenlopende
-                  achtergronden en niveaus, gevestigd op het mooiste puntje van Walcheren. Van de collega die haar eerste 5 km wil lopen
-                  tot de veteraan die zijn zoveelste marathon voorbereidt. Wat ons bindt?
-                  De Zeeuwse nuchterheid, een gezonde dosis ambitie, en het besef dat de beste
-                  ideeën ontstaan als je kilometertje 7 voorbij rent met de wind in je gezicht
-                  en de vuurtoren in zicht.
+                  Vandaag de dag zijn we een hecht team van hybride atleten uit
+                  Westkapelle. Van de bierveteraan die zijn kater eraf loopt tot de
+                  prosecco princess die na elke trail een fles ontkurkt. Wat ons
+                  bindt? De overtuiging dat het leven te kort is om te kiezen tussen
+                  de kroeg en de hardloopschoenen. Wij doen gewoon allebei.
                 </p>
               </div>
             </AnimatedSection>
@@ -259,7 +257,7 @@ export default function OverOnsPage() {
           <AnimatedSection>
             <SectionHeading
               title="Wat Ons Anders Maakt"
-              subtitle="De balans tussen serieuze sport en oprechte gezelligheid"
+              subtitle="De balans tussen de kroeg en de startlijn"
               centered
             />
           </AnimatedSection>
@@ -273,9 +271,9 @@ export default function OverOnsPage() {
                       <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z" />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-emte-gray-900">Geen Ego&apos;s</h3>
+                  <h3 className="font-bold text-emte-gray-900">Geen Excuses</h3>
                   <p className="mt-2 text-sm text-emte-gray-600">
-                    De snelste loper moedigt de langzaamste aan. Altijd.
+                    Kater? Geen excuus. Zondagochtend wordt er gelopen. Altijd.
                   </p>
                 </div>
 
@@ -285,9 +283,9 @@ export default function OverOnsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-emte-gray-900">Serieus Plezier</h3>
+                  <h3 className="font-bold text-emte-gray-900">Hybride Lifestyle</h3>
                   <p className="mt-2 text-sm text-emte-gray-600">
-                    We trainen serieus, maar vergeten nooit waarom we begonnen zijn.
+                    Bier op zaterdag, PR&apos;s op zondag. Dat is onze manier van leven.
                   </p>
                 </div>
 
@@ -297,9 +295,9 @@ export default function OverOnsPage() {
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9 12.75 11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 0 1-1.043 3.296 3.745 3.745 0 0 1-3.296 1.043A3.745 3.745 0 0 1 12 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 0 1-3.296-1.043 3.745 3.745 0 0 1-1.043-3.296A3.745 3.745 0 0 1 3 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 0 1 1.043-3.296 3.746 3.746 0 0 1 3.296-1.043A3.746 3.746 0 0 1 12 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 0 1 3.296 1.043 3.745 3.745 0 0 1 1.043 3.296A3.745 3.745 0 0 1 21 12Z" />
                     </svg>
                   </div>
-                  <h3 className="font-bold text-emte-gray-900">Steun & Support</h3>
+                  <h3 className="font-bold text-emte-gray-900">Samen Sterk</h3>
                   <p className="mt-2 text-sm text-emte-gray-600">
-                    Van trainingsadvies tot morele support op kilometer 35.
+                    Van trainingsadvies tot morele support bij rondje 8 aan de bar.
                   </p>
                 </div>
               </div>
@@ -316,12 +314,12 @@ export default function OverOnsPage() {
                   <path d="M14.017 21v-7.391c0-5.704 3.731-9.57 8.983-10.609l.995 2.151c-2.432.917-3.995 3.638-3.995 5.849h4v10h-9.983zm-14.017 0v-7.391c0-5.704 3.748-9.57 9-10.609l.996 2.151c-2.433.917-3.996 3.638-3.996 5.849h3.983v10h-9.983z" />
                 </svg>
                 <blockquote className="text-lg font-medium italic leading-relaxed text-white sm:text-xl">
-                  &quot;Ik kwam voor de kilometers, maar ik bleef voor de mensen. Dit
-                  team heeft me niet alleen een snellere loper gemaakt, maar ook een
-                  gelukkiger mens.&quot;
+                  &quot;Ik kwam voor het bier, maar ik bleef voor de kilometers. Of
+                  was het andersom? Maakt niet uit — dit team heeft me een
+                  betere loper en een betere drinker gemaakt.&quot;
                 </blockquote>
                 <p className="mt-4 text-sm font-semibold text-emte-yellow">
-                  &mdash; Lisa, lid sinds 2021
+                  &mdash; Een anonieme hybride atleet
                 </p>
               </div>
             </AnimatedSection>
@@ -339,8 +337,8 @@ export default function OverOnsPage() {
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mx-auto mt-6 max-w-xl text-lg text-emte-gray-200">
-                Of je nu wilt meelopen, ons team wilt sponsoren, of gewoon een keer wilt
-                komen kijken &mdash; we horen graag van je.
+                Of je nu wilt meelopen, meedrinken of allebei &mdash; we horen graag van je.
+                Het enige wat je nodig hebt is hardloopschoenen en een gezonde dorst.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button href="/contact" variant="secondary" size="lg">

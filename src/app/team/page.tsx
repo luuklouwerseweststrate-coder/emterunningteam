@@ -24,7 +24,7 @@ export default function TeamPage() {
           <AnimatedSection>
             <SectionHeading
               title="Ons Team"
-              subtitle="De gezichten achter de kilometers langs de Westkapelse kust. Maak kennis met de hardlopers, coaches en vrijwilligers die het EMTE Running Team vormen — van de vuurtoren tot de finish."
+              subtitle="Zes hybride atleten die bewijzen dat je zaterdagavond in de kroeg kunt staan en zondagochtend een PR kunt lopen. Maak kennis met de drinkers, lopers en feestbeesten van het EMTE Running Team."
               centered
               light
             />
@@ -59,14 +59,12 @@ export default function TeamPage() {
           <AnimatedSection>
             <div className="mx-auto mb-16 max-w-3xl text-center">
               <p className="text-lg leading-relaxed text-emte-gray-700">
-                Bij het EMTE Running Team in Westkapelle draait alles om samen
-                beter worden — met de Zeeuwse kust als ons thuiscircuit. Ieder
-                teamlid brengt unieke kwaliteiten mee, van jarenlange ervaring
-                tot aanstekelijk enthousiasme. Of je nu een doorgewinterde
-                marathonloper bent of net je eerste kilometers over de Walcherse
-                dijk loopt, bij ons vind je altijd een trainingsmaatje. Nuchter
-                maar gedreven, zo zijn we hier in Zeeland. Klik op een teamlid
-                om meer te lezen over hun verhaal.
+                Bij het EMTE Running Team draait alles om de hybride lifestyle:
+                zaterdagavond de kroeg platlopen, zondagochtend de dijk oplopen.
+                Ieder teamlid brengt unieke kwaliteiten mee — zowel aan de bar
+                als op de baan. Of je nou een bierveteraan bent of meer van de
+                rode wijn, bij ons vind je altijd een drink- en trainingsmaatje.
+                Klik op een teamlid om meer te lezen over hun verhaal.
               </p>
             </div>
           </AnimatedSection>

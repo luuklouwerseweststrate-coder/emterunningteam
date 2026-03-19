@@ -43,7 +43,7 @@ export default function ContactPage() {
             </h1>
             <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-emte-gray-200 sm:text-xl">
-              Vragen, idee&euml;n of gewoon even hallo zeggen? We zitten in Westkapelle, aan de voet van de vuurtoren. Kom langs of stuur een bericht!
+              Wil je meelopen, meedrinken of allebei? We zitten in Westkapelle — meestal op de dijk of in de kroeg. Stuur een bericht!
             </p>
           </AnimatedSection>
         </div>
@@ -306,8 +306,8 @@ export default function ContactPage() {
                       Sponsor Worden?
                     </h3>
                     <p className="mt-2 text-sm text-emte-gray-600">
-                      Wil je jouw merk verbinden aan een ambitieus en groeiend
-                      hardloopteam uit Zeeland? Ontdek onze sponsormogelijkheden.
+                      Wil je jouw merk verbinden aan de meest gezellige hybride
+                      atleten van Zeeland? Ontdek onze sponsormogelijkheden.
                     </p>
                     <div className="mt-4">
                       <Button href="/sponsoren" variant="secondary" size="sm">
