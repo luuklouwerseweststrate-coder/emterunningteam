@@ -15,7 +15,7 @@ export default function IntroSection() {
         </AnimatedSection>
         <AnimatedSection delay={0.2}>
           <p className="text-lg text-emte-gray-600 leading-relaxed max-w-3xl mx-auto">
-            Wat begon als een dronken weddenschap in een Westkapels cafe is
+            Wat begon als een dronken weddenschap in een Waschappels cafe is
             uitgegroeid tot een team van hybride atleten met een duidelijke
             filosofie: je kunt zaterdagavond in de kroeg staan en zondagochtend
             een PR lopen. Wij bewijzen dat bier en hardlopen prima samengaan.

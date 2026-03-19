@@ -15,7 +15,7 @@ const timeline = [
     year: '2019',
     title: 'De Dronken Weddenschap',
     description:
-      'Na te veel biertjes in een Westkapels cafe wedden een paar vrienden dat ze de 65 van Walcheren kunnen lopen. De volgende ochtend — met kater — staan ze er nog steeds achter. Het EMTE Running Team is geboren.',
+      'Na te veel biertjes in een Waschappels cafe wedden een paar vrienden dat ze de 65 van Walcheren kunnen lopen. De volgende ochtend — met kater — staan ze er nog steeds achter. Het EMTE Running Team is geboren.',
   },
   {
     year: '2020',
@@ -140,7 +140,7 @@ export default function OverOnsPage() {
             <AnimatedSection delay={0.2}>
               <div className="space-y-6 text-lg leading-relaxed text-emte-gray-700">
                 <p>
-                  Het begon allemaal met een dronken weddenschap in een Westkapels cafe.
+                  Het begon allemaal met een dronken weddenschap in een Waschappels cafe.
                   In 2019 daagde iemand na zes biertjes de rest uit om de 65 van
                   Walcheren te lopen. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde
                   laatste woorden. De volgende ochtend — met een monumentale kater —
