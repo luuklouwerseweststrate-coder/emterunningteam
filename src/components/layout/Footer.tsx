@@ -8,6 +8,7 @@ const navLinks = [
   { href: "/evenementen", label: "Evenementen" },
   { href: "/resultaten", label: "Resultaten" },
   { href: "/galerij", label: "Galerij" },
+  { href: "/routes", label: "Routes" },
   { href: "/sponsoren", label: "Sponsoren" },
   { href: "/over-ons", label: "Over Ons" },
   { href: "/contact", label: "Contact" },
