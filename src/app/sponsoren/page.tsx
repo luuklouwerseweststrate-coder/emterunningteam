@@ -11,7 +11,7 @@ const benefits = [
   {
     title: 'Logo op wedstrijdkleding',
     description:
-      'Uw logo op het shirt van onze lopers — zichtbaar bij elke training en wedstrijd.',
+      'Uw logo op het shirt van onze lopers, zichtbaar bij elke training en wedstrijd.',
     icon: (
       <svg className="h-7 w-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.5}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
@@ -73,13 +73,13 @@ const benefits = [
 const testimonials = [
   {
     quote:
-      'Het sponsoren van het EMTE Running Team voelt als een echt partnerschap. De gasten op onze camping vragen er regelmatig naar — het leeft echt in de gemeenschap.',
+      'Het sponsoren van het EMTE Running Team voelt als een echt partnerschap. De gasten op onze camping vragen er regelmatig naar, het leeft echt in de gemeenschap.',
     author: 'Familie Boogaard',
     company: 'Mini Camping Boogaard',
   },
   {
     quote:
-      'De zichtbaarheid die we krijgen bij evenementen door heel Zeeland is fantastisch. Van de Kustmarathon tot lokale lopen op Walcheren — een geweldig team om mee samen te werken.',
+      'De zichtbaarheid die we krijgen bij evenementen door heel Zeeland is fantastisch. Van de Kustmarathon tot lokale lopen op Walcheren, een geweldig team om mee samen te werken.',
     author: 'Bombaai Team',
     company: 'Bombaai Strandbar',
   },
@@ -125,7 +125,7 @@ export default function SponsorenPage() {
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-600">
                 Sponsoring van het EMTE Running Team is een investering in
                 zichtbaarheid bij wedstrijden, op terrassen en in kroegen door heel
-                Zeeland. Uw merk is zichtbaar waar het ertoe doet — van de startlijn
+                Zeeland. Uw merk is zichtbaar waar het ertoe doet, van de startlijn
                 tot de bar. Onze sponsors zijn geen nummers, ze zijn onderdeel van
                 het team.
               </p>
@@ -338,7 +338,7 @@ export default function SponsorenPage() {
               <p className="mt-6 text-lg leading-relaxed text-emte-gray-200">
                 Wilt u uw merk verbinden aan de leukste hybride atleten van
                 Zeeland? Wij vertellen u graag meer over de mogelijkheden. Geen
-                verplichtingen, wel een goed gesprek — het liefst met een biertje erbij.
+                verplichtingen, wel een goed gesprek, het liefst met een biertje erbij.
               </p>
               <div className="mt-10 flex flex-col items-center justify-center gap-4 sm:flex-row">
                 <Button variant="secondary" size="lg" href="/contact">

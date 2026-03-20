@@ -30,7 +30,7 @@ export const events: Event[] = [
     location: 'Zeeland',
     distance: '6 km / 15 km / halve marathon / marathon',
     description:
-      'Dé marathon van Zeeland! Van strand naar dijk, van duinen naar polders. Als Zeeuws team is dit onze thuiswedstrijd — hier moeten we staan.',
+      'Dé marathon van Zeeland! Van strand naar dijk, van duinen naar polders. Als Zeeuws team is dit onze thuiswedstrijd, hier moeten we staan.',
     status: 'upcoming',
     participants: 12,
   },
@@ -41,8 +41,30 @@ export const events: Event[] = [
     location: 'Walcheren, Zeeland',
     distance: '65 km / 40 km / 25 km / 15 km',
     description:
-      'Het ultieme evenement voor het EMTE Running Team. 65 kilometer rond Walcheren — onze eigen achtertuin. Hier is het allemaal begonnen.',
+      'Het ultieme evenement voor het EMTE Running Team. 65 kilometer rond Walcheren, onze eigen achtertuin. Hier is het allemaal begonnen.',
     status: 'upcoming',
     participants: 15,
+  },
+  {
+    id: 'sip-and-run-2025',
+    name: 'Sip & Run Walcheren',
+    date: '2025-09-06',
+    location: 'Westkapelle, Zeeland',
+    distance: '10 km',
+    description:
+      'Ons eigen evenement: 10 km hardlopen met onderweg drie stops voor een drankje. De ultieme hybride atleet-ervaring. Georganiseerd door het EMTE Running Team zelf.',
+    status: 'past',
+    participants: 24,
+  },
+  {
+    id: '65-van-walcheren-2025',
+    name: '65 van Walcheren',
+    date: '2025-06-14',
+    location: 'Walcheren, Zeeland',
+    distance: '65 km / 40 km / 25 km / 15 km',
+    description:
+      'Het evenement waar het allemaal begon. Met het voltallige team gelopen, inclusief de nodige katers van de avond ervoor. Een onvergetelijke dag op ons eigen eiland.',
+    status: 'past',
+    participants: 12,
   },
 ];

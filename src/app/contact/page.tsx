@@ -43,7 +43,7 @@ export default function ContactPage() {
             </h1>
             <div className="mx-auto mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mx-auto mt-6 max-w-2xl text-lg text-emte-gray-200 sm:text-xl">
-              Wil je meelopen, meedrinken of allebei? We zitten in Westkapelle — meestal op de dijk of in de kroeg. Stuur een bericht!
+              Wil je meelopen, meedrinken of allebei? We zitten in Westkapelle, meestal op de dijk of in de kroeg. Stuur een bericht!
             </p>
           </AnimatedSection>
         </div>
@@ -387,7 +387,7 @@ export default function ContactPage() {
                   Kaart volgt binnenkort
                 </p>
                 <p className="mt-1 text-sm text-emte-gray-400">
-                  Westkapelle, Zeeland &mdash; niet te missen, net als de vuurtoren
+                  Westkapelle, Zeeland , niet te missen, net als de vuurtoren
                 </p>
               </div>
             </div>

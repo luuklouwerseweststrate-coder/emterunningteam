@@ -10,6 +10,8 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/team", label: "Team" },
   { href: "/evenementen", label: "Evenementen" },
+  { href: "/resultaten", label: "Resultaten" },
+  { href: "/galerij", label: "Galerij" },
   { href: "/sponsoren", label: "Sponsoren" },
   { href: "/over-ons", label: "Over Ons" },
   { href: "/contact", label: "Contact" },

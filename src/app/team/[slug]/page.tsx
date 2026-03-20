@@ -116,7 +116,7 @@ export default async function TeamMemberPage({
 
           {/* Stats Row */}
           <AnimatedSection delay={0.1}>
-            <div className="mb-16 grid grid-cols-1 gap-6 sm:grid-cols-3">
+            <div className="mb-16 grid grid-cols-2 gap-6 sm:grid-cols-4">
               <div className="rounded-2xl bg-emte-gray-50 p-6 text-center">
                 <p className="text-3xl font-bold text-emte-green">
                   {member.stats.kmPerWeek}
@@ -139,6 +139,17 @@ export default async function TeamMemberPage({
                 </p>
                 <p className="mt-1 text-sm font-medium text-emte-gray-600">
                   persoonlijke records
+                </p>
+              </div>
+              <div className="rounded-2xl bg-emte-yellow/10 border-2 border-emte-yellow/30 p-6 text-center">
+                <p className="text-3xl font-bold text-emte-yellow-dark">
+                  {(member.stats.beersPerWeek / member.stats.runsPerWeek).toFixed(1)}
+                </p>
+                <p className="mt-1 text-sm font-medium text-emte-gray-600">
+                  Hybride Atleet Score
+                </p>
+                <p className="mt-0.5 text-xs text-emte-gray-400">
+                  bier/week : runs/week
                 </p>
               </div>
             </div>

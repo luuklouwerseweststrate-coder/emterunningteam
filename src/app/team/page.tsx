@@ -8,7 +8,7 @@ import TeamCard from "@/components/ui/TeamCard";
 export const metadata: Metadata = {
   title: "Ons Team | EMTE Running Team",
   description:
-    "Maak kennis met de lopers van het EMTE Running Team. Van marathonlopers tot trailrunners — ontdek wie wij zijn.",
+    "Maak kennis met de lopers van het EMTE Running Team. Van marathonlopers tot trailrunners, ontdek wie wij zijn.",
 };
 
 export default function TeamPage() {
@@ -39,14 +39,14 @@ export default function TeamPage() {
             <div className="relative overflow-hidden rounded-2xl shadow-xl">
               <Image
                 src="/images/team-group.jpeg"
-                alt="Het EMTE Running Team — groepsfoto"
+                alt="Het EMTE Running Team groepsfoto"
                 width={1200}
                 height={600}
                 className="w-full h-auto object-cover"
               />
               <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/60 to-transparent px-8 py-6">
                 <p className="text-lg font-bold text-white">Ons team</p>
-                <p className="text-sm text-white/80">Samen sterker, samen sneller — vanuit Westkapelle</p>
+                <p className="text-sm text-white/80">Samen sterker, samen sneller, vanuit Westkapelle</p>
               </div>
             </div>
           </AnimatedSection>
@@ -61,7 +61,7 @@ export default function TeamPage() {
               <p className="text-lg leading-relaxed text-emte-gray-700">
                 Bij het EMTE Running Team draait alles om de hybride lifestyle:
                 zaterdagavond de kroeg platlopen, zondagochtend de dijk oplopen.
-                Ieder teamlid brengt unieke kwaliteiten mee — zowel aan de bar
+                Ieder teamlid brengt unieke kwaliteiten mee, zowel aan de bar
                 als op de baan. Of je nou een bierveteraan bent of meer van de
                 rode wijn, bij ons vind je altijd een drink- en trainingsmaatje.
                 Klik op een teamlid om meer te lezen over hun verhaal.

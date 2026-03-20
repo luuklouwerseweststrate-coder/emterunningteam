@@ -29,7 +29,7 @@ export default function CTASection() {
 
         <AnimatedSection delay={0.2}>
           <p className="mt-6 text-lg text-white/70 leading-relaxed">
-            Of je nu wilt meelopen, meedrinken of allebei — we horen graag
+            Of je nu wilt meelopen, meedrinken of allebei, we horen graag
             van je. Het enige wat je nodig hebt is een paar hardloopschoenen
             en een gezonde dorst.
           </p>

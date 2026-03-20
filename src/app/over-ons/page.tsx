@@ -15,13 +15,13 @@ const timeline = [
     year: '2019',
     title: 'De Dronken Weddenschap',
     description:
-      'Na te veel biertjes in een Waschappels cafe wedden een paar vrienden dat ze de 65 van Walcheren kunnen lopen. De volgende ochtend — met kater — staan ze er nog steeds achter. Het EMTE Running Team is geboren.',
+      'Na te veel biertjes in een Waschappels cafe wedden een paar vrienden dat ze de 65 van Walcheren kunnen lopen. De volgende ochtend, met kater, staan ze er nog steeds achter. Het EMTE Running Team is geboren.',
   },
   {
     year: '2020',
     title: 'Eerste Kater-Run',
     description:
-      'De traditie begint: zaterdagavond de kroeg, zondagochtend de dijk. Ondanks corona wordt de eerste officiele kater-run gelopen — een virtuele 10 km die begint en eindigt bij de koelkast.',
+      'De traditie begint: zaterdagavond de kroeg, zondagochtend de dijk. Ondanks corona wordt de eerste officiele kater-run gelopen, een virtuele 10 km die begon en eindigde bij de koelkast.',
   },
   {
     year: '2022',
@@ -33,7 +33,7 @@ const timeline = [
     year: '2023',
     title: 'Eerste Sponsoren',
     description:
-      'Lokale bedrijven herkennen de kracht van hybride atleten. De eerste sponsoren sluiten zich aan — ze snappen dat bier en kilometers prima samengaan.',
+      'Lokale bedrijven herkennen de kracht van hybride atleten. De eerste sponsoren sluiten zich aan, ze snappen dat bier en kilometers prima samengaan.',
   },
   {
     year: '2024',
@@ -52,7 +52,7 @@ const cultuurCards = [
     ),
     title: 'Iedereen Welkom',
     description:
-      'Of je nou een bierveteraan bent of meer van de wijn — bij ons is iedereen welkom. Geen minimum tempo, geen maximum drankjes.',
+      'Of je nou een bierveteraan bent of meer van de wijn, bij ons is iedereen welkom. Geen minimum tempo, geen maximum drankjes.',
   },
   {
     icon: (
@@ -83,7 +83,7 @@ const cultuurCards = [
     ),
     title: 'Teamgevoel',
     description:
-      'Samen lopen, samen drinken, samen de kater overleven. We moedigen elkaar aan — zowel bij kilometer 30 als bij rondje 10.',
+      'Samen lopen, samen drinken, samen de kater overleven. We moedigen elkaar aan, zowel bij kilometer 30 als bij rondje 10.',
   },
 ];
 
@@ -132,7 +132,7 @@ export default function OverOnsPage() {
                   className="w-full h-auto object-cover"
                 />
                 <div className="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/50 to-transparent px-6 py-4">
-                  <p className="text-sm font-medium text-white">Het EMTE Running Team — samen onderweg</p>
+                  <p className="text-sm font-medium text-white">Het EMTE Running Team, samen onderweg</p>
                 </div>
               </div>
             </AnimatedSection>
@@ -143,7 +143,7 @@ export default function OverOnsPage() {
                   Het begon allemaal met een dronken weddenschap in een Waschappels cafe.
                   In 2019 daagde iemand na zes biertjes de rest uit om de 65 van
                   Walcheren te lopen. &quot;Hoe moeilijk kan het zijn?&quot; waren de beroemde
-                  laatste woorden. De volgende ochtend — met een monumentale kater —
+                  laatste woorden. De volgende ochtend, met een monumentale kater,
                   stond iedereen er nog steeds achter. Dat zegt alles over dit team.
                 </p>
                 <p>
@@ -315,11 +315,11 @@ export default function OverOnsPage() {
                 </svg>
                 <blockquote className="text-lg font-medium italic leading-relaxed text-white sm:text-xl">
                   &quot;Ik kwam voor het bier, maar ik bleef voor de kilometers. Of
-                  was het andersom? Maakt niet uit — dit team heeft me een
+                  was het andersom? Maakt niet uit, dit team heeft me een
                   betere loper en een betere drinker gemaakt.&quot;
                 </blockquote>
                 <p className="mt-4 text-sm font-semibold text-emte-yellow">
-                  &mdash; Een anonieme hybride atleet
+                  - Een anonieme hybride atleet
                 </p>
               </div>
             </AnimatedSection>
@@ -337,7 +337,7 @@ export default function OverOnsPage() {
               </h2>
               <div className="mx-auto mt-4 h-1 w-16 rounded-full bg-emte-yellow" />
               <p className="mx-auto mt-6 max-w-xl text-lg text-emte-gray-200">
-                Of je nu wilt meelopen, meedrinken of allebei &mdash; we horen graag van je.
+                Of je nu wilt meelopen, meedrinken of allebei, we horen graag van je.
                 Het enige wat je nodig hebt is hardloopschoenen en een gezonde dorst.
               </p>
               <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">

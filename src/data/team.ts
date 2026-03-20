@@ -15,6 +15,8 @@ export interface TeamMember {
     kmPerWeek: number;
     races: number;
     prs: number;
+    beersPerWeek: number;
+    runsPerWeek: number;
   };
 }
 
@@ -27,10 +29,10 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "Bierveteraan. Zaterdagavond de kroeg platlopen, zondagochtend de dijk oplopen. Dat is de Luuk-manier.",
     fullBio:
-      "Luuk is de bierveteraan van het EMTE Running Team. Hij combineert zaterdagavonden in het café met zondagochtend-duurlopen alsof het de normaalste zaak van de wereld is. Wat begon als een dronken weddenschap in de kroeg — 'wedden dat we de 65 van Walcheren kunnen doen?' — werd al snel serieus toen iedereen de volgende ochtend nog steeds ja zei. Als echte Waschappelaar kent hij elke kroeg en elke dijk op Walcheren even goed.",
+      "Luuk is de bierveteraan van het EMTE Running Team. Hij combineert zaterdagavonden in het café met zondagochtend-duurlopen alsof het de normaalste zaak van de wereld is. Wat begon als een dronken weddenschap in de kroeg ('wedden dat we de 65 van Walcheren kunnen doen?') werd al snel serieus toen iedereen de volgende ochtend nog steeds ja zei. Als echte Waschappelaar kent hij elke kroeg en elke dijk op Walcheren even goed.",
     favoriteDistance: "Halve marathon",
     bestAchievement:
-      "De 65 van Walcheren uitlopen met het complete team — met een kater van de avond ervoor.",
+      "De 65 van Walcheren uitlopen met het complete team, met een kater van de avond ervoor.",
     bestTeamMoment:
       "Het moment dat we met z'n zessen de finishboog door kwamen en meteen naar het dichtstbijzijnde terras liepen voor een welverdiend biertje.",
     personalQuote:
@@ -46,6 +48,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 50,
       races: 18,
       prs: 7,
+      beersPerWeek: 15,
+      runsPerWeek: 4,
     },
   },
   {
@@ -54,15 +58,15 @@ export const teamMembers: TeamMember[] = [
     role: "Shotjes Kampioen",
     image: "/images/teamlid_matthijs.png",
     shortBio:
-      "Snelste loper en snelste drinker. Doet alles in een hoog tempo — van intervals tot biertjes tikken.",
+      "Snelste loper en snelste drinker. Doet alles in een hoog tempo, van intervals tot biertjes tikken.",
     fullBio:
-      "Matthijs is de snelste van het team, zowel op de baan als aan de bar. Zaterdagavond staat hij vooraan bij de shotjesronde, zondagochtend staat hij vooraan bij de duurloop. Hoe hij dat doet? Niemand weet het. Hij loopt het liefst voorop, kijkt regelmatig om, en roept 'kom op, nog even!' — of het nou de laatste kilometer is of het laatste rondje aan de bar.",
+      "Matthijs is de snelste van het team, zowel op de baan als aan de bar. Zaterdagavond staat hij vooraan bij de shotjesronde, zondagochtend staat hij vooraan bij de duurloop. Hoe hij dat doet? Niemand weet het. Hij loopt het liefst voorop, kijkt regelmatig om, en roept 'kom op, nog even!', of het nou de laatste kilometer is of het laatste rondje aan de bar.",
     favoriteDistance: "10 km",
     bestAchievement:
       "PR gelopen op de 10 km de ochtend na een bruiloft. Niemand snapt hoe.",
     bestTeamMoment:
       "De teamborrel die uitliep tot 3 uur 's nachts en de daaropvolgende zondagochtend-training waar iedereen kwam opdagen.",
-    personalQuote: "Snel drinken, snel lopen — balans is alles.",
+    personalQuote: "Snel drinken, snel lopen, balans is alles.",
     whyRunning:
       "Het begon als manier om de kroeg-calorieen te compenseren, maar het werd een verslaving. Die runner's high na een goede intervaltraining is bijna net zo goed als dat eerste biertje op vrijdagavond. Bijna.",
     funFacts: [
@@ -74,6 +78,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 55,
       races: 22,
       prs: 11,
+      beersPerWeek: 18,
+      runsPerWeek: 5,
     },
   },
   {
@@ -82,17 +88,17 @@ export const teamMembers: TeamMember[] = [
     role: "Jagermeister Specialist",
     image: "/images/teamlid_bart.png",
     shortBio:
-      "Houdt van lange afstanden en lange avonden. De rust zelve — totdat de Jagermeister op tafel komt.",
+      "Houdt van lange afstanden en lange avonden. De rust zelve, totdat de Jagermeister op tafel komt.",
     fullBio:
-      "Bart is de stille kracht van het team — tot de Jagermeister tevoorschijn komt. Dan verandert de rustige duurloper in de feestbeest van de avond. Maar hoe laat het ook wordt op zaterdag, zondag staat hij er weer. Om 6 uur de deur uit, de dijk op, de kater eraf lopen. Die extra kilometers na een stevig avondje zijn voor hem geen probleem.",
+      "Bart is de stille kracht van het team. Tot de Jagermeister tevoorschijn komt. Dan verandert de rustige duurloper in de feestbeest van de avond. Maar hoe laat het ook wordt op zaterdag, zondag staat hij er weer. Om 6 uur de deur uit, de dijk op, de kater eraf lopen. Die extra kilometers na een stevig avondje zijn voor hem geen probleem.",
     favoriteDistance: "Marathon",
     bestAchievement:
-      "De Kustmarathon Zeeland uitgelopen in 3:28:14 — na een vrijdagavond die beter vergeten kan worden.",
+      "De Kustmarathon Zeeland uitgelopen in 3:28:14, na een vrijdagavond die beter vergeten kan worden.",
     bestTeamMoment:
       "Het teamweekend in Renesse. 25 km gelopen overdag, 25 biertjes gedronken 's avonds. De ultieme hybride atleet-ervaring.",
     personalQuote: "De beste kater-remedie is een lange duurloop bij zonsopgang.",
     whyRunning:
-      "Hardlopen is mijn kater-therapie. Om 6 uur de deur uit, de dijk op, het zweet eruit lopen. Na 15 km voel je niks meer — geen kater, geen spijt, alleen de wind en de weg. En dan 's avonds weer opnieuw beginnen.",
+      "Hardlopen is mijn kater-therapie. Om 6 uur de deur uit, de dijk op, het zweet eruit lopen. Na 15 km voel je niks meer, geen kater, geen spijt, alleen de wind en de weg. En dan 's avonds weer opnieuw beginnen.",
     funFacts: [
       "Heeft een Jagermeister-flesje als geluksbrenger in zijn sporttas",
       "Beweert dat Jagermeister kruiden bevat en dus gezond is",
@@ -102,6 +108,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 60,
       races: 14,
       prs: 5,
+      beersPerWeek: 12,
+      runsPerWeek: 5,
     },
   },
   {
@@ -110,9 +118,9 @@ export const teamMembers: TeamMember[] = [
     role: "Borrelaanvoerder",
     image: "/images/teamlid_juriaan.png",
     shortBio:
-      "Organiseert de borrels, organiseert de wedstrijden. De sociale lijm die alles bij elkaar houdt — met bier.",
+      "Organiseert de borrels, organiseert de wedstrijden. De sociale lijm die alles bij elkaar houdt. Met bier.",
     fullBio:
-      "Juriaan is de sociale lijm van het team. Hij regelt de borrels, de uitjes, de groepsapp en zorgt ervoor dat iedereen op komt dagen — zowel op zaterdag in de kroeg als op zondag bij de training. 'Ik loop niet om records te breken, ik loop zodat ik 's avonds zonder schuldgevoel kan borrelen,' zegt hij zelf. Hij is de man die de teamcultuur van hybride atleet heeft uitgevonden: hard trainen, hard feesten, en de volgende dag weer gaan.",
+      "Juriaan is de sociale lijm van het team. Hij regelt de borrels, de uitjes, de groepsapp en zorgt ervoor dat iedereen op komt dagen, zowel op zaterdag in de kroeg als op zondag bij de training. 'Ik loop niet om records te breken, ik loop zodat ik 's avonds zonder schuldgevoel kan borrelen,' zegt hij zelf. Hij is de man die de teamcultuur van hybride atleet heeft uitgevonden: hard trainen, hard feesten, en de volgende dag weer gaan.",
     favoriteDistance: "15 km",
     bestAchievement:
       "Een kerstloop door Westkapelle georganiseerd, compleet met gluhwein-stops onderweg als 'verzorgingspost'.",
@@ -121,7 +129,7 @@ export const teamMembers: TeamMember[] = [
     personalQuote:
       "Het leven is te kort om te kiezen tussen de kroeg en de hardloopschoenen.",
     whyRunning:
-      "Hardlopen is mijn excuus om te borrelen zonder schuldgevoel. Elke kilometer die ik loop is een biertje dat ik kan drinken. Simpele wiskunde. En ik vind het gewoon ontzettend leuk om met dit team te lopen — het zijn niet alleen teamgenoten, het zijn drinkmaatjes die toevallig ook kunnen hardlopen.",
+      "Hardlopen is mijn excuus om te borrelen zonder schuldgevoel. Elke kilometer die ik loop is een biertje dat ik kan drinken. Simpele wiskunde. En ik vind het gewoon ontzettend leuk om met dit team te lopen, het zijn niet alleen teamgenoten, het zijn drinkmaatjes die toevallig ook kunnen hardlopen.",
     funFacts: [
       "Beheert de teamgroepsapp waar 80% van de berichten over bier gaat",
       "Heeft ooit per ongeluk een halve marathon gelopen omdat hij de verkeerde afslag nam na een kroegentocht",
@@ -131,6 +139,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 35,
       races: 20,
       prs: 8,
+      beersPerWeek: 20,
+      runsPerWeek: 3,
     },
   },
   {
@@ -141,7 +151,7 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "De jongste van het team. Rent overdag, rode wijn 's avonds. Bewijst dat je allebei kunt combineren.",
     fullBio:
-      "Imara is 24 en de nieuwste aanwinst van het EMTE Running Team. Wat haar uniek maakt? Ze combineert haar liefde voor rode wijn met serieuze hardloopprestaties. Zaterdagavond een fles Merlot delen met vriendinnen, zondagochtend een PR lopen op de 5 km — voor Imara is dat geen tegenstelling, dat is lifestyle. Ze is de belichaming van de hybride atleet: jong, snel, en altijd in voor een goed glas na de training.",
+      "Imara is 24 en de nieuwste aanwinst van het EMTE Running Team. Wat haar uniek maakt? Ze combineert haar liefde voor rode wijn met serieuze hardloopprestaties. Zaterdagavond een fles Merlot delen met vriendinnen, zondagochtend een PR lopen op de 5 km, voor Imara is dat geen tegenstelling, dat is lifestyle. Ze is de belichaming van de hybride atleet: jong, snel, en altijd in voor een goed glas na de training.",
     favoriteDistance: "5 km",
     bestAchievement:
       "Haar eerste 5 km onder de 20 minuten, gelopen na een wijnproeverij de avond ervoor. Rode wijn als brandstof.",
@@ -159,6 +169,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 40,
       races: 10,
       prs: 6,
+      beersPerWeek: 8,
+      runsPerWeek: 4,
     },
   },
   {
@@ -169,7 +181,7 @@ export const teamMembers: TeamMember[] = [
     shortBio:
       "Trailrunner met een passie voor speciaalbier. Overdag door de duinen, 's avonds een tripel op het terras.",
     fullBio:
-      "Evi combineert trailrunning met speciaalbier alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een lokaal gebrouwen IPA op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert — zowel op de trail als bij de borrel. Als bierkenner weet ze precies welk speciaalbiertje past bij welke afstand. Wetenschap in dienst van de hybride atleet.",
+      "Evi combineert trailrunning met speciaalbier alsof het olympische disciplines zijn. Zaterdagochtend rent ze door de duinen bij Westkapelle, zaterdagavond zit ze met een lokaal gebrouwen IPA op het terras bij Bombaai. Ze brengt een avontuurlijke spirit mee die het team inspireert, zowel op de trail als bij de borrel. Als bierkenner weet ze precies welk speciaalbiertje past bij welke afstand. Wetenschap in dienst van de hybride atleet.",
     favoriteDistance: "Trail 25 km",
     bestAchievement:
       "De Duin Ultra Trail (30 km) uitgelopen als derde vrouw, gevierd met een lokale tripel op het strand.",
@@ -178,7 +190,7 @@ export const teamMembers: TeamMember[] = [
     personalQuote:
       "De mooiste routes eindigen bij een craft beer bar.",
     whyRunning:
-      "Hardlopen in de natuur is mijn excuus om daarna zonder schuldgevoel een speciaalbiertje te drinken op het terras. De duinen in, het zweet eruit, en dan belonen met een goed gebrouwen tripel of IPA. Met dit team erbij wordt elke trail een proeverij — letterlijk, want er is altijd iemand die iets nieuws heeft ontdekt.",
+      "Hardlopen in de natuur is mijn excuus om daarna zonder schuldgevoel een speciaalbiertje te drinken op het terras. De duinen in, het zweet eruit, en dan belonen met een goed gebrouwen tripel of IPA. Met dit team erbij wordt elke trail een proeverij, letterlijk, want er is altijd iemand die iets nieuws heeft ontdekt.",
     funFacts: [
       "Heeft altijd een speciaalbiergids in haar sporttas voor na de finish",
       "Verzamelt finisher-medailles én bierdopjes uit elke stad waar ze een race loopt",
@@ -188,6 +200,8 @@ export const teamMembers: TeamMember[] = [
       kmPerWeek: 45,
       races: 16,
       prs: 6,
+      beersPerWeek: 10,
+      runsPerWeek: 4,
     },
   },
 ];

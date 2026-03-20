@@ -20,7 +20,7 @@ export default function IntroSection() {
             filosofie: je kunt zaterdagavond in de kroeg staan en zondagochtend
             een PR lopen. Wij bewijzen dat bier en hardlopen prima samengaan.
             Met de Zeeuwse kust als ons decor en de kater als vaste
-            trainingspartner — bij ons vind je de juiste energie, het juiste
+            trainingspartner, bij ons vind je de juiste energie, het juiste
             gezelschap en altijd een goed excuus om na de finish een biertje
             te pakken.
           </p>
@@ -37,7 +37,7 @@ export default function IntroSection() {
               {
                 title: "Zeeuws DNA",
                 description:
-                  "Nuchter, vastberaden en altijd klaar voor een rondje Walcheren — en een rondje aan de bar.",
+                  "Nuchter, vastberaden en altijd klaar voor een rondje Walcheren, en een rondje aan de bar.",
                 icon: "\uD83C\uDF0A",
               },
               {

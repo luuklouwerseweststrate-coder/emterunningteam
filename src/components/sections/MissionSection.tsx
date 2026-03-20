@@ -33,7 +33,7 @@ export default function MissionSection() {
           <p className="mt-8 text-lg text-white/70 leading-relaxed max-w-3xl mx-auto">
             Geworteld in Westkapelle, gevormd door de Zeeuwse wind en
             zaterdagavonden in het cafe. Het EMTE Running Team gelooft dat
-            hardlopen en bier drinken geen tegenstellingen zijn — het zijn twee
+            hardlopen en bier drinken geen tegenstellingen zijn, het zijn twee
             kanten van dezelfde medaille. Wij zijn hybride atleten: we lopen
             PR's op zondagochtend met de kater van zaterdagavond. De finish
             is pas compleet met een biertje in de hand. En de borrel is pas
@@ -54,7 +54,7 @@ export default function MissionSection() {
               },
               {
                 title: "Zeeuws Karakter",
-                text: "Nuchter, vastberaden en altijd door — of het nou de dijk is of de derde ronde aan de bar.",
+                text: "Nuchter, vastberaden en altijd door, of het nou de dijk is of de derde ronde aan de bar.",
               },
             ].map((item) => (
               <div

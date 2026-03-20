@@ -32,7 +32,7 @@ export const sponsors: Sponsor[] = [
     website: '#',
     tier: 'partner',
     description:
-      'Hoveniersbedrijf Minderhoud zorgt voor de mooiste tuinen in Zeeland — en voor de steun die ons team nodig heeft om te blijven groeien.',
+      'Hoveniersbedrijf Minderhoud zorgt voor de mooiste tuinen in Zeeland, en voor de steun die ons team nodig heeft om te blijven groeien.',
   },
   {
     id: 'bombaai-strandbar',
@@ -49,7 +49,7 @@ export const sponsorPackages: SponsorPackage[] = [
   {
     name: 'Supporter',
     tier: 'supporter',
-    price: '€ 250 / jaar',
+    price: '€ 25 / jaar',
     features: [
       'Logo op de website',
       'Vermelding op social media',
@@ -59,30 +59,28 @@ export const sponsorPackages: SponsorPackage[] = [
     highlighted: false,
   },
   {
-    name: 'Partner',
+    name: 'Sponsor',
     tier: 'partner',
-    price: '€ 750 / jaar',
+    price: '€ 50 / jaar',
     features: [
       'Alles van Supporter',
-      'Logo op wedstrijdkleding',
+      'Logo op wedstrijdkleding (shirt!)',
       'Banner bij evenementen',
       'Feature-artikel op de website',
       'Gezamenlijke social media campagne',
-      'Netwerkevent met andere partners',
     ],
     highlighted: true,
   },
   {
-    name: 'Hoofdpartner',
+    name: 'Hoofdsponsor',
     tier: 'hoofdpartner',
-    price: '€ 1.500 / jaar',
+    price: '€ 100 / jaar',
     features: [
-      'Alles van Partner',
+      'Alles van Sponsor',
       'Prominente logoplaatsing op kleding',
       'Exclusieve naamsvermelding bij events',
       'Gezamenlijk persbericht',
       'VIP-toegang tot alle evenementen',
-      'Kwartaalrapportage zichtbaarheid',
       'Input in teamactiviteiten',
     ],
     highlighted: false,

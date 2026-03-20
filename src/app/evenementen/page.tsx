@@ -36,7 +36,7 @@ export default function EvenementenPage() {
             <div className="mt-4 h-1 w-20 rounded-full bg-emte-yellow" />
             <p className="mt-6 max-w-2xl text-lg text-emte-gray-200">
               Van kater-runs langs de Walcherse kust tot grote marathons door heel
-              Nederland — het EMTE Running Team is overal te vinden. Bekijk waar je
+              Nederland, het EMTE Running Team is overal te vinden. Bekijk waar je
               ons kunt tegenkomen (en mee kunt drinken na de finish)!
             </p>
           </AnimatedSection>

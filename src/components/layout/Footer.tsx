@@ -6,6 +6,8 @@ const navLinks = [
   { href: "/", label: "Home" },
   { href: "/team", label: "Team" },
   { href: "/evenementen", label: "Evenementen" },
+  { href: "/resultaten", label: "Resultaten" },
+  { href: "/galerij", label: "Galerij" },
   { href: "/sponsoren", label: "Sponsoren" },
   { href: "/over-ons", label: "Over Ons" },
   { href: "/contact", label: "Contact" },
@@ -57,7 +59,7 @@ export default function Footer() {
             <p className="text-sm leading-relaxed text-white/70">
               EMTE Running Team is een groep hybride atleten uit Westkapelle.
               Wij combineren zaterdagavonden in de kroeg met zondagochtend-duurlopen.
-              Bier en kilometers — dat is onze sport.
+              Bier en kilometers, dat is onze sport.
             </p>
           </div>
 
