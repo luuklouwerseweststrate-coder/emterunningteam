@@ -1,9 +1,15 @@
 'use client';
 
+import dynamic from 'next/dynamic';
 import { motion } from 'framer-motion';
 import { ProcessedActivity } from '@/lib/strava/types';
 import { formatRelativeDate, getActivityTypeName, getActivityTypeIcon } from '@/lib/strava/utils';
-import ActivityMap from './ActivityMap';
+
+// Leaflet gebruikt window — mag niet server-side laden
+const ActivityMap = dynamic(() => import('./ActivityMap'), {
+  ssr: false,
+  loading: () => <div className="h-40 w-full rounded-t-2xl bg-emte-gray-100 animate-pulse" />,
+});
 
 interface ActivityCardProps {
   activity: ProcessedActivity;

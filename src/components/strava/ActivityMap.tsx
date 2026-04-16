@@ -1,7 +1,6 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
-import type L from 'leaflet';
+import { useEffect, useRef } from 'react';
 import { decodePolyline } from '@/lib/strava/polyline';
 
 interface ActivityMapProps {
@@ -12,18 +11,13 @@ interface ActivityMapProps {
 
 export default function ActivityMap({ polyline, center, height = '100%' }: ActivityMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setMounted(true);
-  }, []);
+    if (!mapRef.current) return;
 
-  useEffect(() => {
-    if (!mounted || !mapRef.current) return;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    let map: any = null;
 
-    let map: L.Map | null = null;
-
-    // Dynamische import van Leaflet (werkt niet bij SSR)
     const initMap = async () => {
       const L = (await import('leaflet')).default;
       await import('leaflet/dist/leaflet.css');
@@ -79,11 +73,7 @@ export default function ActivityMap({ polyline, center, height = '100%' }: Activ
         map.remove();
       }
     };
-  }, [mounted, polyline, center]);
-
-  if (!mounted) {
-    return <div style={{ height, width: '100%' }} className="rounded-t-2xl bg-emte-gray-100" />;
-  }
+  }, [polyline, center]);
 
   return <div ref={mapRef} style={{ height, width: '100%' }} className="rounded-t-2xl" />;
 }
