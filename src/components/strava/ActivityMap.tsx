@@ -1,9 +1,8 @@
 'use client';
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
+import type L from 'leaflet';
 import { decodePolyline } from '@/lib/strava/polyline';
-import L from 'leaflet';
-import 'leaflet/dist/leaflet.css';
 
 interface ActivityMapProps {
   polyline: string;
@@ -13,66 +12,78 @@ interface ActivityMapProps {
 
 export default function ActivityMap({ polyline, center, height = '100%' }: ActivityMapProps) {
   const mapRef = useRef<HTMLDivElement>(null);
-  const mapInstance = useRef<L.Map | null>(null);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    if (!mapRef.current || mapInstance.current) return;
+    setMounted(true);
+  }, []);
 
-    // Decode de polyline naar lat/lng punten
-    const points = decodePolyline(polyline);
-    if (points.length === 0) return;
+  useEffect(() => {
+    if (!mounted || !mapRef.current) return;
 
-    // Maak de kaart
-    const map = L.map(mapRef.current, {
-      zoomControl: false,
-      attributionControl: false,
-      dragging: false,
-      scrollWheelZoom: false,
-      doubleClickZoom: false,
-      touchZoom: false,
-    });
+    let map: L.Map | null = null;
 
-    mapInstance.current = map;
+    // Dynamische import van Leaflet (werkt niet bij SSR)
+    const initMap = async () => {
+      const L = (await import('leaflet')).default;
+      await import('leaflet/dist/leaflet.css');
 
-    // Donkere kaart stijl (past bij EMTE green thema)
-    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-      maxZoom: 19,
-    }).addTo(map);
+      if (!mapRef.current) return;
 
-    // Teken de route
-    const latLngs = points.map((p) => L.latLng(p[0], p[1]));
-    const routeLine = L.polyline(latLngs, {
-      color: '#f5c518', // emte-yellow
-      weight: 3,
-      opacity: 0.9,
-    }).addTo(map);
+      const points = decodePolyline(polyline);
+      if (points.length === 0) return;
 
-    // Start punt (groen)
-    L.circleMarker(latLngs[0], {
-      radius: 4,
-      color: '#1a5632',
-      fillColor: '#237a47',
-      fillOpacity: 1,
-      weight: 2,
-    }).addTo(map);
+      map = L.map(mapRef.current, {
+        zoomControl: false,
+        attributionControl: false,
+        dragging: false,
+        scrollWheelZoom: false,
+        doubleClickZoom: false,
+        touchZoom: false,
+      });
 
-    // Eind punt (geel)
-    L.circleMarker(latLngs[latLngs.length - 1], {
-      radius: 4,
-      color: '#d4a800',
-      fillColor: '#f5c518',
-      fillOpacity: 1,
-      weight: 2,
-    }).addTo(map);
+      L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+        maxZoom: 19,
+      }).addTo(map);
 
-    // Zoom naar de route
-    map.fitBounds(routeLine.getBounds(), { padding: [10, 10] });
+      const latLngs = points.map((p) => L.latLng(p[0], p[1]));
+      const routeLine = L.polyline(latLngs, {
+        color: '#f5c518',
+        weight: 3,
+        opacity: 0.9,
+      }).addTo(map);
+
+      L.circleMarker(latLngs[0], {
+        radius: 4,
+        color: '#1a5632',
+        fillColor: '#237a47',
+        fillOpacity: 1,
+        weight: 2,
+      }).addTo(map);
+
+      L.circleMarker(latLngs[latLngs.length - 1], {
+        radius: 4,
+        color: '#d4a800',
+        fillColor: '#f5c518',
+        fillOpacity: 1,
+        weight: 2,
+      }).addTo(map);
+
+      map.fitBounds(routeLine.getBounds(), { padding: [10, 10] });
+    };
+
+    initMap();
 
     return () => {
-      map.remove();
-      mapInstance.current = null;
+      if (map) {
+        map.remove();
+      }
     };
-  }, [polyline, center]);
+  }, [mounted, polyline, center]);
+
+  if (!mounted) {
+    return <div style={{ height, width: '100%' }} className="rounded-t-2xl bg-emte-gray-100" />;
+  }
 
   return <div ref={mapRef} style={{ height, width: '100%' }} className="rounded-t-2xl" />;
 }

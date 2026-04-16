@@ -3,7 +3,6 @@
 import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { ProcessedStats } from '@/lib/strava/types';
-import { formatDuration } from '@/lib/strava/utils';
 import ActivityCard from './ActivityCard';
 
 interface MemberStravaStatsProps {

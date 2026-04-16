@@ -1,7 +1,7 @@
 // Strava API client - server-side helper functies
 // Tokens komen uit environment variables (geen database nodig)
 
-import { StravaActivity, StravaDetailedActivity, StravaAthlete, StravaAthleteStats } from './types';
+import type { StravaActivity, StravaDetailedActivity, StravaAthlete, StravaAthleteStats } from './types';
 
 const STRAVA_API_BASE = 'https://www.strava.com/api/v3';
 
@@ -42,7 +42,6 @@ async function stravaFetch<T>(endpoint: string, params?: Record<string, string>)
 
   const res = await fetch(url.toString(), {
     headers: { Authorization: `Bearer ${accessToken}` },
-    next: { revalidate: 300 },
   });
 
   if (!res.ok) return null;

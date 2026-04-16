@@ -1,9 +1,9 @@
 'use client';
 
-import { useEffect, useState, useCallback } from 'react';
+import { Suspense, useEffect, useState, useCallback } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { ProcessedStats, StravaAthleteStats } from '@/lib/strava/types';
+import type { ProcessedStats, StravaAthleteStats } from '@/lib/strava/types';
 import { formatDuration, metersToKm } from '@/lib/strava/utils';
 import AnimatedSection from '@/components/ui/AnimatedSection';
 import StravaConnect from '@/components/strava/StravaConnect';
@@ -26,7 +26,7 @@ interface StravaData {
   error?: string;
 }
 
-export default function StravaPage() {
+function StravaDashboard() {
   const searchParams = useSearchParams();
   const [data, setData] = useState<StravaData | null>(null);
   const [loading, setLoading] = useState(true);
@@ -63,7 +63,6 @@ export default function StravaPage() {
           <div className="flex flex-col items-start justify-between gap-6 sm:flex-row sm:items-center">
             <AnimatedSection>
               <div className="flex items-center gap-4">
-                {/* Strava icon */}
                 <div className="flex h-14 w-14 items-center justify-center rounded-2xl bg-[#FC4C02]/20">
                   <svg viewBox="0 0 24 24" className="h-8 w-8 fill-[#FC4C02]" aria-hidden="true">
                     <path d="M15.387 17.944l-2.089-4.116h-3.065L15.387 24l5.15-10.172h-3.066m-7.008-5.599l2.836 5.598h4.172L10.463 0l-7 13.828h4.169" />
@@ -89,7 +88,6 @@ export default function StravaPage() {
             )}
           </div>
 
-          {/* Success/error meldingen */}
           {justConnected && (
             <motion.div
               initial={{ opacity: 0, y: -10 }}
@@ -113,7 +111,6 @@ export default function StravaPage() {
         </div>
       </section>
 
-      {/* Loading state */}
       {loading && (
         <section className="py-20">
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -125,7 +122,6 @@ export default function StravaPage() {
         </section>
       )}
 
-      {/* Niet verbonden state */}
       {!loading && data && !data.connected && (
         <section className="py-20">
           <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
@@ -155,10 +151,8 @@ export default function StravaPage() {
         </section>
       )}
 
-      {/* Dashboard met data */}
       {!loading && data?.connected && data.stats && (
         <>
-          {/* Stats overview */}
           <section className="bg-emte-gray-50 py-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <AnimatedSection>
@@ -167,7 +161,6 @@ export default function StravaPage() {
             </div>
           </section>
 
-          {/* Wekelijkse grafiek */}
           <section className="bg-white py-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <AnimatedSection>
@@ -176,7 +169,6 @@ export default function StravaPage() {
             </div>
           </section>
 
-          {/* All-time stats banner */}
           {data.athleteStats && (
             <section className="bg-emte-green py-12">
               <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -217,7 +209,6 @@ export default function StravaPage() {
             </section>
           )}
 
-          {/* Recente activiteiten */}
           <section className="bg-emte-gray-50 py-16">
             <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <AnimatedSection>
@@ -232,7 +223,6 @@ export default function StravaPage() {
             </div>
           </section>
 
-          {/* Laatste update */}
           {data.lastUpdated && (
             <div className="bg-white py-4 text-center text-xs text-emte-gray-400">
               Laatste update: {new Date(data.lastUpdated).toLocaleString('nl-NL')}
@@ -247,5 +237,32 @@ export default function StravaPage() {
         </>
       )}
     </main>
+  );
+}
+
+// Wrapper met Suspense (vereist door useSearchParams in Next.js)
+export default function StravaPage() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen">
+        <section className="relative overflow-hidden bg-gradient-to-br from-emte-green-dark via-emte-green to-emte-green-light pb-16 pt-44 sm:pt-52">
+          <div className="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 className="text-3xl font-extrabold tracking-tight text-white sm:text-4xl lg:text-5xl">
+              Strava Dashboard
+            </h1>
+          </div>
+        </section>
+        <section className="py-20">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div className="flex flex-col items-center justify-center gap-4">
+              <div className="h-10 w-10 animate-spin rounded-full border-4 border-emte-green border-t-transparent" />
+              <p className="text-emte-gray-500">Laden...</p>
+            </div>
+          </div>
+        </section>
+      </main>
+    }>
+      <StravaDashboard />
+    </Suspense>
   );
 }

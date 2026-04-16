@@ -1,7 +1,7 @@
 // GET /api/strava/data
 // Haalt alle Strava data op via env var tokens (geen database nodig)
 import { NextResponse } from 'next/server';
-import { StravaActivity, StravaAthleteStats } from '@/lib/strava/types';
+import type { StravaActivity, StravaAthleteStats } from '@/lib/strava/types';
 import { processAllStats } from '@/lib/strava/utils';
 
 const STRAVA_API = 'https://www.strava.com/api/v3';
