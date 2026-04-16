@@ -5,6 +5,7 @@ import AnimatedSection from "@/components/ui/AnimatedSection";
 import SectionHeading from "@/components/ui/SectionHeading";
 import TeamCard from "@/components/ui/TeamCard";
 import Button from "@/components/ui/Button";
+import MemberStravaStats from "@/components/strava/MemberStravaStats";
 
 function getInitials(name: string): string {
   return name
@@ -224,8 +225,15 @@ export default async function TeamMemberPage({
             </div>
           </AnimatedSection>
 
-          {/* Back link */}
+          {/* Live Strava Data */}
           <AnimatedSection delay={0.4}>
+            <div className="mb-16">
+              <MemberStravaStats memberId={member.id} />
+            </div>
+          </AnimatedSection>
+
+          {/* Back link */}
+          <AnimatedSection delay={0.45}>
             <div className="mb-8 text-center">
               <Button variant="outline" href="/team">
                 &larr; Terug naar het team

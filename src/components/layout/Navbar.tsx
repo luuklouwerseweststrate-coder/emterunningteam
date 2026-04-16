@@ -9,6 +9,7 @@ import { AnimatePresence, motion } from "framer-motion";
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/team", label: "Team" },
+  { href: "/strava", label: "Strava" },
   { href: "/evenementen", label: "Evenementen" },
   { href: "/resultaten", label: "Resultaten" },
   { href: "/galerij", label: "Galerij" },
